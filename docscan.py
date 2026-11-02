@@ -740,9 +740,17 @@ def run_video(source, method="auto", seconds=10.0, show=True, save=None, max_fra
                 probe.release()
     frames = frames_from(source)
     try:
+        # Open/read the first camera frame BEFORE starting the recording timer.
+        # Some Windows camera drivers take several seconds to initialize.
+        first_frame = next(frames, None)
+        if first_frame is not None and camera and show:
+            cv2.namedWindow("docscan: q - vyhod", cv2.WINDOW_NORMAL)
+            cv2.imshow("docscan: q - vyhod", first_frame)
+            cv2.waitKey(250)  # Let the OS actually display the preview window.
+            print("Камера готова: запись начинается сейчас", flush=True)
         t_start = time.perf_counter()
         try:
-            for frame in frames:
+            for frame in itertools.chain((first_frame,), frames) if first_frame is not None else ():
                 frame_size = (frame.shape[1], frame.shape[0])
                 quad, info = detect(frame, method, **kw)
                 n += 1; found += quad is not None; ms.append(info["ms"])
