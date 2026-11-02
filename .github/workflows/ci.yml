@@ -1,7 +1,7 @@
-name: ci
+﻿name: ci
 
-# Те же 17 тестов, что и локально: pytest tests -q. Красный CI — функция не написана
-# или сломана; зелёный — половина работы сделана, остальное — набор кадров, числа, отчёт.
+# РўРµ Р¶Рµ 17 С‚РµСЃС‚РѕРІ, С‡С‚Рѕ Рё Р»РѕРєР°Р»СЊРЅРѕ: pytest homeworks/hw2-docscan/tests -q. РљСЂР°СЃРЅС‹Р№ CI вЂ” С„СѓРЅРєС†РёСЏ РЅРµ РЅР°РїРёСЃР°РЅР°
+# РёР»Рё СЃР»РѕРјР°РЅР°; Р·РµР»С‘РЅС‹Р№ вЂ” РїРѕР»РѕРІРёРЅР° СЂР°Р±РѕС‚С‹ СЃРґРµР»Р°РЅР°, РѕСЃС‚Р°Р»СЊРЅРѕРµ вЂ” РЅР°Р±РѕСЂ РєР°РґСЂРѕРІ, С‡РёСЃР»Р°, РѕС‚С‡С‘С‚.
 
 on:
   push:
@@ -21,11 +21,12 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - name: Установка зависимостей
+      - name: РЈСЃС‚Р°РЅРѕРІРєР° Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: Версия OpenCV
+          pip install -r homeworks/hw2-docscan/requirements.txt
+      - name: Р’РµСЂСЃРёСЏ OpenCV
         run: python -c "import cv2; assert cv2.__version__ == '4.14.0', cv2.__version__; print(cv2.__version__)"
-      - name: Тесты
-        run: pytest tests -q
+      - name: РўРµСЃС‚С‹
+        run: pytest homeworks/hw2-docscan/tests -q
+
