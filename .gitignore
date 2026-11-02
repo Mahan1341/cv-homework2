@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+raw/
+# data/ и out/ в ЭТОМ репозитории коммитятся: без них проверяющий не повторит ваши числа
