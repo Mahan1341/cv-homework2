@@ -1,0 +1,146 @@
+[
+  {
+    "file": "01.jpg",
+    "source": "01.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 806872,
+    "jpeg_quality": 90
+  },
+  {
+    "file": "02.jpg",
+    "source": "02.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 884160,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "03.jpg",
+    "source": "03.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 742977,
+    "jpeg_quality": 90
+  },
+  {
+    "file": "04.jpg",
+    "source": "04.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 534577,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "05.jpg",
+    "source": "05.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 426179,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "06.jpg",
+    "source": "06.jpg",
+    "width": 2000,
+    "height": 1126,
+    "size_bytes": 635163,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "07.jpg",
+    "source": "07.jpg",
+    "width": 2000,
+    "height": 1126,
+    "size_bytes": 583902,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "08.jpg",
+    "source": "08.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 386756,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "09.jpg",
+    "source": "09.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 369334,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "10.jpg",
+    "source": "10.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 496497,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "11.jpg",
+    "source": "11.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 496281,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "12.jpg",
+    "source": "12.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 552436,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "13.jpg",
+    "source": "13.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 448985,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "14.jpg",
+    "source": "14.jpg",
+    "width": 2000,
+    "height": 1126,
+    "size_bytes": 445705,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "15.jpg",
+    "source": "15.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 410583,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "16.jpg",
+    "source": "16.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 403917,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "17.jpg",
+    "source": "17.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 410306,
+    "jpeg_quality": 95
+  },
+  {
+    "file": "18.jpg",
+    "source": "18.jpg",
+    "width": 1126,
+    "height": 2000,
+    "size_bytes": 733178,
+    "jpeg_quality": 95
+  }
+]

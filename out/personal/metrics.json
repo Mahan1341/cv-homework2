@@ -1,0 +1,4410 @@
+{
+  "started_utc": "2026-11-02T20:35:50.660177+00:00",
+  "dataset_kind": "собственные кадры (--personal; авторство не проверяется автоматически)",
+  "course_data": false,
+  "personal": true,
+  "data": "data",
+  "annotations": "data/corners.json",
+  "seeds": 20,
+  "images": {
+    "01.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 806872
+    },
+    "02.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 884160
+    },
+    "03.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 742977
+    },
+    "04.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 534577
+    },
+    "05.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 426179
+    },
+    "06.jpg": {
+      "width": 2000,
+      "height": 1126,
+      "bytes": 635163
+    },
+    "07.jpg": {
+      "width": 2000,
+      "height": 1126,
+      "bytes": 583902
+    },
+    "08.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 386756
+    },
+    "09.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 369334
+    },
+    "10.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 496497
+    },
+    "11.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 733178
+    },
+    "12.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 410306
+    },
+    "13.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 448985
+    },
+    "14.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 410583
+    },
+    "15.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 403917
+    },
+    "16.jpg": {
+      "width": 2000,
+      "height": 1126,
+      "bytes": 445705
+    },
+    "17.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 552436
+    },
+    "18.jpg": {
+      "width": 1126,
+      "height": 2000,
+      "bytes": 496281
+    }
+  },
+  "environment": {
+    "label": "текущая машина",
+    "python": "3.10.6",
+    "opencv": "4.14.0",
+    "numpy": "2.2.6",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+    "logical_cpus": 12
+  },
+  "notes": [],
+  "commands": [
+    {
+      "id": "cmd001",
+      "section": "noise",
+      "file": "01.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/01.jpg"
+      ],
+      "command": "python docscan.py noise data/01.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 5.19}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 5.19
+        }
+      ]
+    },
+    {
+      "id": "cmd002",
+      "section": "noise",
+      "file": "02.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/02.jpg"
+      ],
+      "command": "python docscan.py noise data/02.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 2.72}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 2.72
+        }
+      ]
+    },
+    {
+      "id": "cmd003",
+      "section": "noise",
+      "file": "03.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/03.jpg"
+      ],
+      "command": "python docscan.py noise data/03.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 4.69}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 4.69
+        }
+      ]
+    },
+    {
+      "id": "cmd004",
+      "section": "noise",
+      "file": "04.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/04.jpg"
+      ],
+      "command": "python docscan.py noise data/04.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.74}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.74
+        }
+      ]
+    },
+    {
+      "id": "cmd005",
+      "section": "noise",
+      "file": "05.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/05.jpg"
+      ],
+      "command": "python docscan.py noise data/05.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.49}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.49
+        }
+      ]
+    },
+    {
+      "id": "cmd006",
+      "section": "noise",
+      "file": "06.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/06.jpg"
+      ],
+      "command": "python docscan.py noise data/06.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 360], \"noise_sigma\": 0.74}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            360
+          ],
+          "noise_sigma": 0.74
+        }
+      ]
+    },
+    {
+      "id": "cmd007",
+      "section": "noise",
+      "file": "07.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/07.jpg"
+      ],
+      "command": "python docscan.py noise data/07.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 360], \"noise_sigma\": 0.74}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            360
+          ],
+          "noise_sigma": 0.74
+        }
+      ]
+    },
+    {
+      "id": "cmd008",
+      "section": "noise",
+      "file": "08.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/08.jpg"
+      ],
+      "command": "python docscan.py noise data/08.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.49}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.49
+        }
+      ]
+    },
+    {
+      "id": "cmd009",
+      "section": "noise",
+      "file": "09.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/09.jpg"
+      ],
+      "command": "python docscan.py noise data/09.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.49}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.49
+        }
+      ]
+    },
+    {
+      "id": "cmd010",
+      "section": "noise",
+      "file": "10.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/10.jpg"
+      ],
+      "command": "python docscan.py noise data/10.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.74}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.74
+        }
+      ]
+    },
+    {
+      "id": "cmd011",
+      "section": "noise",
+      "file": "11.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/11.jpg"
+      ],
+      "command": "python docscan.py noise data/11.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 1.24}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 1.24
+        }
+      ]
+    },
+    {
+      "id": "cmd012",
+      "section": "noise",
+      "file": "12.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/12.jpg"
+      ],
+      "command": "python docscan.py noise data/12.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.49}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.49
+        }
+      ]
+    },
+    {
+      "id": "cmd013",
+      "section": "noise",
+      "file": "13.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/13.jpg"
+      ],
+      "command": "python docscan.py noise data/13.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.74}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.74
+        }
+      ]
+    },
+    {
+      "id": "cmd014",
+      "section": "noise",
+      "file": "14.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/14.jpg"
+      ],
+      "command": "python docscan.py noise data/14.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.49}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.49
+        }
+      ]
+    },
+    {
+      "id": "cmd015",
+      "section": "noise",
+      "file": "15.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/15.jpg"
+      ],
+      "command": "python docscan.py noise data/15.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.49}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.49
+        }
+      ]
+    },
+    {
+      "id": "cmd016",
+      "section": "noise",
+      "file": "16.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/16.jpg"
+      ],
+      "command": "python docscan.py noise data/16.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 360], \"noise_sigma\": 0.74}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            360
+          ],
+          "noise_sigma": 0.74
+        }
+      ]
+    },
+    {
+      "id": "cmd017",
+      "section": "noise",
+      "file": "17.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/17.jpg"
+      ],
+      "command": "python docscan.py noise data/17.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.74}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.74
+        }
+      ]
+    },
+    {
+      "id": "cmd018",
+      "section": "noise",
+      "file": "18.jpg",
+      "setting": "default",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/18.jpg"
+      ],
+      "command": "python docscan.py noise data/18.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 0.74}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 0.74
+        }
+      ]
+    },
+    {
+      "id": "cmd019",
+      "section": "added_noise",
+      "file": "01.jpg",
+      "setting": "5",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/01.jpg",
+        "--add-sigma",
+        "5"
+      ],
+      "command": "python docscan.py noise data/01.jpg --add-sigma 5",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 5.19, \"added_sigma\": 5.0, \"noise_sigma_noisy\": 8.4, \"filter_sigma\": 2.37, \"noise_after_measured\": 0.6, \"noise_after_predicted\": 0.6}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 5.19,
+          "added_sigma": 5.0,
+          "noise_sigma_noisy": 8.4,
+          "filter_sigma": 2.37,
+          "noise_after_measured": 0.6,
+          "noise_after_predicted": 0.6
+        }
+      ]
+    },
+    {
+      "id": "cmd020",
+      "section": "added_noise",
+      "file": "01.jpg",
+      "setting": "10",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/01.jpg",
+        "--add-sigma",
+        "10"
+      ],
+      "command": "python docscan.py noise data/01.jpg --add-sigma 10",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 5.19, \"added_sigma\": 10.0, \"noise_sigma_noisy\": 12.85, \"filter_sigma\": 3.0, \"noise_after_measured\": 0.95, \"noise_after_predicted\": 0.94}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 5.19,
+          "added_sigma": 10.0,
+          "noise_sigma_noisy": 12.85,
+          "filter_sigma": 3.0,
+          "noise_after_measured": 0.95,
+          "noise_after_predicted": 0.94
+        }
+      ]
+    },
+    {
+      "id": "cmd021",
+      "section": "added_noise",
+      "file": "01.jpg",
+      "setting": "25",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "noise",
+        "data/01.jpg",
+        "--add-sigma",
+        "25"
+      ],
+      "command": "python docscan.py noise data/01.jpg --add-sigma 25",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [360, 640], \"noise_sigma\": 5.19, \"added_sigma\": 25.0, \"noise_sigma_noisy\": 26.44, \"filter_sigma\": 3.0, \"noise_after_measured\": 2.37, \"noise_after_predicted\": 2.35}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            360,
+            640
+          ],
+          "noise_sigma": 5.19,
+          "added_sigma": 25.0,
+          "noise_sigma_noisy": 26.44,
+          "filter_sigma": 3.0,
+          "noise_after_measured": 2.37,
+          "noise_after_predicted": 2.35
+        }
+      ]
+    },
+    {
+      "id": "cmd022",
+      "section": "edges",
+      "file": "01.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/01.jpg",
+        "-o",
+        "out/personal/edges/01_median.png"
+      ],
+      "command": "python docscan.py edges data/01.jpg -o out/personal/edges/01_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 5.19, \"filter_sigma\": 1.46, \"median\": 109.0, \"canny\": [73, 144], \"edge_pct\": 0.55, \"segments\": 11, \"out\": \"out/personal/edges/01_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 5.19,
+          "filter_sigma": 1.46,
+          "median": 109.0,
+          "canny": [
+            73,
+            144
+          ],
+          "edge_pct": 0.55,
+          "segments": 11,
+          "out": "out/personal/edges/01_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd023",
+      "section": "edges",
+      "file": "01.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/01.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/01_fixed.png"
+      ],
+      "command": "python docscan.py edges data/01.jpg --canny 50,150 -o out/personal/edges/01_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 5.19, \"filter_sigma\": 1.46, \"median\": 109.0, \"canny\": [50, 150], \"edge_pct\": 0.55, \"segments\": 11, \"out\": \"out/personal/edges/01_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 5.19,
+          "filter_sigma": 1.46,
+          "median": 109.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.55,
+          "segments": 11,
+          "out": "out/personal/edges/01_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd024",
+      "section": "edges",
+      "file": "01.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/01.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/01_no_close.png"
+      ],
+      "command": "python docscan.py edges data/01.jpg --close 0 -o out/personal/edges/01_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 5.19, \"filter_sigma\": 1.46, \"median\": 105.0, \"canny\": [70, 139], \"edge_pct\": 0.63, \"segments\": 12, \"out\": \"out/personal/edges/01_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 5.19,
+          "filter_sigma": 1.46,
+          "median": 105.0,
+          "canny": [
+            70,
+            139
+          ],
+          "edge_pct": 0.63,
+          "segments": 12,
+          "out": "out/personal/edges/01_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd025",
+      "section": "edges",
+      "file": "02.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/02.jpg",
+        "-o",
+        "out/personal/edges/02_median.png"
+      ],
+      "command": "python docscan.py edges data/02.jpg -o out/personal/edges/02_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 2.72, \"filter_sigma\": 1.0, \"median\": 117.0, \"canny\": [78, 155], \"edge_pct\": 0.72, \"segments\": 23, \"out\": \"out/personal/edges/02_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 2.72,
+          "filter_sigma": 1.0,
+          "median": 117.0,
+          "canny": [
+            78,
+            155
+          ],
+          "edge_pct": 0.72,
+          "segments": 23,
+          "out": "out/personal/edges/02_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd026",
+      "section": "edges",
+      "file": "02.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/02.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/02_fixed.png"
+      ],
+      "command": "python docscan.py edges data/02.jpg --canny 50,150 -o out/personal/edges/02_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 2.72, \"filter_sigma\": 1.0, \"median\": 117.0, \"canny\": [50, 150], \"edge_pct\": 0.73, \"segments\": 22, \"out\": \"out/personal/edges/02_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 2.72,
+          "filter_sigma": 1.0,
+          "median": 117.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.73,
+          "segments": 22,
+          "out": "out/personal/edges/02_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd027",
+      "section": "edges",
+      "file": "02.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/02.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/02_no_close.png"
+      ],
+      "command": "python docscan.py edges data/02.jpg --close 0 -o out/personal/edges/02_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 2.72, \"filter_sigma\": 1.0, \"median\": 106.0, \"canny\": [71, 140], \"edge_pct\": 1.38, \"segments\": 27, \"out\": \"out/personal/edges/02_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 2.72,
+          "filter_sigma": 1.0,
+          "median": 106.0,
+          "canny": [
+            71,
+            140
+          ],
+          "edge_pct": 1.38,
+          "segments": 27,
+          "out": "out/personal/edges/02_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd028",
+      "section": "edges",
+      "file": "03.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/03.jpg",
+        "-o",
+        "out/personal/edges/03_median.png"
+      ],
+      "command": "python docscan.py edges data/03.jpg -o out/personal/edges/03_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 4.69, \"filter_sigma\": 1.32, \"median\": 107.0, \"canny\": [71, 142], \"edge_pct\": 0.51, \"segments\": 15, \"out\": \"out/personal/edges/03_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 4.69,
+          "filter_sigma": 1.32,
+          "median": 107.0,
+          "canny": [
+            71,
+            142
+          ],
+          "edge_pct": 0.51,
+          "segments": 15,
+          "out": "out/personal/edges/03_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd029",
+      "section": "edges",
+      "file": "03.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/03.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/03_fixed.png"
+      ],
+      "command": "python docscan.py edges data/03.jpg --canny 50,150 -o out/personal/edges/03_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 4.69, \"filter_sigma\": 1.32, \"median\": 107.0, \"canny\": [50, 150], \"edge_pct\": 0.51, \"segments\": 13, \"out\": \"out/personal/edges/03_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 4.69,
+          "filter_sigma": 1.32,
+          "median": 107.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.51,
+          "segments": 13,
+          "out": "out/personal/edges/03_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd030",
+      "section": "edges",
+      "file": "03.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/03.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/03_no_close.png"
+      ],
+      "command": "python docscan.py edges data/03.jpg --close 0 -o out/personal/edges/03_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 4.69, \"filter_sigma\": 1.32, \"median\": 102.0, \"canny\": [68, 135], \"edge_pct\": 0.75, \"segments\": 21, \"out\": \"out/personal/edges/03_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 4.69,
+          "filter_sigma": 1.32,
+          "median": 102.0,
+          "canny": [
+            68,
+            135
+          ],
+          "edge_pct": 0.75,
+          "segments": 21,
+          "out": "out/personal/edges/03_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd031",
+      "section": "edges",
+      "file": "04.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/04.jpg",
+        "-o",
+        "out/personal/edges/04_median.png"
+      ],
+      "command": "python docscan.py edges data/04.jpg -o out/personal/edges/04_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 28.0, \"canny\": [18, 37], \"edge_pct\": 1.51, \"segments\": 36, \"out\": \"out/personal/edges/04_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 28.0,
+          "canny": [
+            18,
+            37
+          ],
+          "edge_pct": 1.51,
+          "segments": 36,
+          "out": "out/personal/edges/04_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd032",
+      "section": "edges",
+      "file": "04.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/04.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/04_fixed.png"
+      ],
+      "command": "python docscan.py edges data/04.jpg --canny 50,150 -o out/personal/edges/04_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 28.0, \"canny\": [50, 150], \"edge_pct\": 0.31, \"segments\": 10, \"out\": \"out/personal/edges/04_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 28.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.31,
+          "segments": 10,
+          "out": "out/personal/edges/04_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd033",
+      "section": "edges",
+      "file": "04.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/04.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/04_no_close.png"
+      ],
+      "command": "python docscan.py edges data/04.jpg --close 0 -o out/personal/edges/04_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 27.0, \"canny\": [18, 35], \"edge_pct\": 6.29, \"segments\": 294, \"out\": \"out/personal/edges/04_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 27.0,
+          "canny": [
+            18,
+            35
+          ],
+          "edge_pct": 6.29,
+          "segments": 294,
+          "out": "out/personal/edges/04_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd034",
+      "section": "edges",
+      "file": "05.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/05.jpg",
+        "-o",
+        "out/personal/edges/05_median.png"
+      ],
+      "command": "python docscan.py edges data/05.jpg -o out/personal/edges/05_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 25.0, \"canny\": [16, 33], \"edge_pct\": 1.11, \"segments\": 26, \"out\": \"out/personal/edges/05_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 25.0,
+          "canny": [
+            16,
+            33
+          ],
+          "edge_pct": 1.11,
+          "segments": 26,
+          "out": "out/personal/edges/05_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd035",
+      "section": "edges",
+      "file": "05.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/05.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/05_fixed.png"
+      ],
+      "command": "python docscan.py edges data/05.jpg --canny 50,150 -o out/personal/edges/05_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 25.0, \"canny\": [50, 150], \"edge_pct\": 0.16, \"segments\": 4, \"out\": \"out/personal/edges/05_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 25.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.16,
+          "segments": 4,
+          "out": "out/personal/edges/05_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd036",
+      "section": "edges",
+      "file": "05.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/05.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/05_no_close.png"
+      ],
+      "command": "python docscan.py edges data/05.jpg --close 0 -o out/personal/edges/05_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 23.0, \"canny\": [15, 30], \"edge_pct\": 8.26, \"segments\": 341, \"out\": \"out/personal/edges/05_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 23.0,
+          "canny": [
+            15,
+            30
+          ],
+          "edge_pct": 8.26,
+          "segments": 341,
+          "out": "out/personal/edges/05_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd037",
+      "section": "edges",
+      "file": "06.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/06.jpg",
+        "-o",
+        "out/personal/edges/06_median.png"
+      ],
+      "command": "python docscan.py edges data/06.jpg -o out/personal/edges/06_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 192.0, \"canny\": [128, 255], \"edge_pct\": 0.0, \"segments\": 0, \"out\": \"out/personal/edges/06_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 192.0,
+          "canny": [
+            128,
+            255
+          ],
+          "edge_pct": 0.0,
+          "segments": 0,
+          "out": "out/personal/edges/06_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd038",
+      "section": "edges",
+      "file": "06.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/06.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/06_fixed.png"
+      ],
+      "command": "python docscan.py edges data/06.jpg --canny 50,150 -o out/personal/edges/06_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 192.0, \"canny\": [50, 150], \"edge_pct\": 0.07, \"segments\": 3, \"out\": \"out/personal/edges/06_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 192.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.07,
+          "segments": 3,
+          "out": "out/personal/edges/06_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd039",
+      "section": "edges",
+      "file": "06.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/06.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/06_no_close.png"
+      ],
+      "command": "python docscan.py edges data/06.jpg --close 0 -o out/personal/edges/06_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 188.0, \"canny\": [125, 250], \"edge_pct\": 0.18, \"segments\": 6, \"out\": \"out/personal/edges/06_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 188.0,
+          "canny": [
+            125,
+            250
+          ],
+          "edge_pct": 0.18,
+          "segments": 6,
+          "out": "out/personal/edges/06_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd040",
+      "section": "edges",
+      "file": "07.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/07.jpg",
+        "-o",
+        "out/personal/edges/07_median.png"
+      ],
+      "command": "python docscan.py edges data/07.jpg -o out/personal/edges/07_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 190.0, \"canny\": [127, 252], \"edge_pct\": 0.3, \"segments\": 6, \"out\": \"out/personal/edges/07_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 190.0,
+          "canny": [
+            127,
+            252
+          ],
+          "edge_pct": 0.3,
+          "segments": 6,
+          "out": "out/personal/edges/07_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd041",
+      "section": "edges",
+      "file": "07.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/07.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/07_fixed.png"
+      ],
+      "command": "python docscan.py edges data/07.jpg --canny 50,150 -o out/personal/edges/07_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 190.0, \"canny\": [50, 150], \"edge_pct\": 0.42, \"segments\": 9, \"out\": \"out/personal/edges/07_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 190.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.42,
+          "segments": 9,
+          "out": "out/personal/edges/07_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd042",
+      "section": "edges",
+      "file": "07.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/07.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/07_no_close.png"
+      ],
+      "command": "python docscan.py edges data/07.jpg --close 0 -o out/personal/edges/07_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 186.0, \"canny\": [124, 247], \"edge_pct\": 1.1, \"segments\": 24, \"out\": \"out/personal/edges/07_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 186.0,
+          "canny": [
+            124,
+            247
+          ],
+          "edge_pct": 1.1,
+          "segments": 24,
+          "out": "out/personal/edges/07_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd043",
+      "section": "edges",
+      "file": "08.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/08.jpg",
+        "-o",
+        "out/personal/edges/08_median.png"
+      ],
+      "command": "python docscan.py edges data/08.jpg -o out/personal/edges/08_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 23.0, \"canny\": [15, 30], \"edge_pct\": 1.95, \"segments\": 48, \"out\": \"out/personal/edges/08_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 23.0,
+          "canny": [
+            15,
+            30
+          ],
+          "edge_pct": 1.95,
+          "segments": 48,
+          "out": "out/personal/edges/08_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd044",
+      "section": "edges",
+      "file": "08.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/08.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/08_fixed.png"
+      ],
+      "command": "python docscan.py edges data/08.jpg --canny 50,150 -o out/personal/edges/08_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 23.0, \"canny\": [50, 150], \"edge_pct\": 0.16, \"segments\": 4, \"out\": \"out/personal/edges/08_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 23.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.16,
+          "segments": 4,
+          "out": "out/personal/edges/08_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd045",
+      "section": "edges",
+      "file": "08.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/08.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/08_no_close.png"
+      ],
+      "command": "python docscan.py edges data/08.jpg --close 0 -o out/personal/edges/08_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 23.0, \"canny\": [15, 30], \"edge_pct\": 4.74, \"segments\": 163, \"out\": \"out/personal/edges/08_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 23.0,
+          "canny": [
+            15,
+            30
+          ],
+          "edge_pct": 4.74,
+          "segments": 163,
+          "out": "out/personal/edges/08_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd046",
+      "section": "edges",
+      "file": "09.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/09.jpg",
+        "-o",
+        "out/personal/edges/09_median.png"
+      ],
+      "command": "python docscan.py edges data/09.jpg -o out/personal/edges/09_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 52.0, \"canny\": [34, 69], \"edge_pct\": 0.49, \"segments\": 8, \"out\": \"out/personal/edges/09_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 52.0,
+          "canny": [
+            34,
+            69
+          ],
+          "edge_pct": 0.49,
+          "segments": 8,
+          "out": "out/personal/edges/09_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd047",
+      "section": "edges",
+      "file": "09.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/09.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/09_fixed.png"
+      ],
+      "command": "python docscan.py edges data/09.jpg --canny 50,150 -o out/personal/edges/09_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 52.0, \"canny\": [50, 150], \"edge_pct\": 0.07, \"segments\": 0, \"out\": \"out/personal/edges/09_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 52.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.07,
+          "segments": 0,
+          "out": "out/personal/edges/09_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd048",
+      "section": "edges",
+      "file": "09.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/09.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/09_no_close.png"
+      ],
+      "command": "python docscan.py edges data/09.jpg --close 0 -o out/personal/edges/09_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 50.0, \"canny\": [33, 66], \"edge_pct\": 1.96, \"segments\": 54, \"out\": \"out/personal/edges/09_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 50.0,
+          "canny": [
+            33,
+            66
+          ],
+          "edge_pct": 1.96,
+          "segments": 54,
+          "out": "out/personal/edges/09_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd049",
+      "section": "edges",
+      "file": "10.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/10.jpg",
+        "-o",
+        "out/personal/edges/10_median.png"
+      ],
+      "command": "python docscan.py edges data/10.jpg -o out/personal/edges/10_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 51.0, \"canny\": [34, 67], \"edge_pct\": 0.06, \"segments\": 2, \"out\": \"out/personal/edges/10_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 51.0,
+          "canny": [
+            34,
+            67
+          ],
+          "edge_pct": 0.06,
+          "segments": 2,
+          "out": "out/personal/edges/10_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd050",
+      "section": "edges",
+      "file": "10.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/10.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/10_fixed.png"
+      ],
+      "command": "python docscan.py edges data/10.jpg --canny 50,150 -o out/personal/edges/10_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 51.0, \"canny\": [50, 150], \"edge_pct\": 0.0, \"segments\": 0, \"out\": \"out/personal/edges/10_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 51.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.0,
+          "segments": 0,
+          "out": "out/personal/edges/10_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd051",
+      "section": "edges",
+      "file": "10.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/10.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/10_no_close.png"
+      ],
+      "command": "python docscan.py edges data/10.jpg --close 0 -o out/personal/edges/10_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 49.0, \"canny\": [32, 65], \"edge_pct\": 1.38, \"segments\": 35, \"out\": \"out/personal/edges/10_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 49.0,
+          "canny": [
+            32,
+            65
+          ],
+          "edge_pct": 1.38,
+          "segments": 35,
+          "out": "out/personal/edges/10_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd052",
+      "section": "edges",
+      "file": "11.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/11.jpg",
+        "-o",
+        "out/personal/edges/11_median.png"
+      ],
+      "command": "python docscan.py edges data/11.jpg -o out/personal/edges/11_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 1.24, \"filter_sigma\": 1.0, \"median\": 113.0, \"canny\": [75, 150], \"edge_pct\": 1.25, \"segments\": 28, \"out\": \"out/personal/edges/11_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 1.24,
+          "filter_sigma": 1.0,
+          "median": 113.0,
+          "canny": [
+            75,
+            150
+          ],
+          "edge_pct": 1.25,
+          "segments": 28,
+          "out": "out/personal/edges/11_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd053",
+      "section": "edges",
+      "file": "11.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/11.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/11_fixed.png"
+      ],
+      "command": "python docscan.py edges data/11.jpg --canny 50,150 -o out/personal/edges/11_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 1.24, \"filter_sigma\": 1.0, \"median\": 113.0, \"canny\": [50, 150], \"edge_pct\": 1.55, \"segments\": 28, \"out\": \"out/personal/edges/11_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 1.24,
+          "filter_sigma": 1.0,
+          "median": 113.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 1.55,
+          "segments": 28,
+          "out": "out/personal/edges/11_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd054",
+      "section": "edges",
+      "file": "11.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/11.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/11_no_close.png"
+      ],
+      "command": "python docscan.py edges data/11.jpg --close 0 -o out/personal/edges/11_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 1.24, \"filter_sigma\": 1.0, \"median\": 108.0, \"canny\": [72, 143], \"edge_pct\": 2.31, \"segments\": 54, \"out\": \"out/personal/edges/11_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 1.24,
+          "filter_sigma": 1.0,
+          "median": 108.0,
+          "canny": [
+            72,
+            143
+          ],
+          "edge_pct": 2.31,
+          "segments": 54,
+          "out": "out/personal/edges/11_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd055",
+      "section": "edges",
+      "file": "12.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/12.jpg",
+        "-o",
+        "out/personal/edges/12_median.png"
+      ],
+      "command": "python docscan.py edges data/12.jpg -o out/personal/edges/12_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 23.0, \"canny\": [15, 30], \"edge_pct\": 2.54, \"segments\": 59, \"out\": \"out/personal/edges/12_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 23.0,
+          "canny": [
+            15,
+            30
+          ],
+          "edge_pct": 2.54,
+          "segments": 59,
+          "out": "out/personal/edges/12_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd056",
+      "section": "edges",
+      "file": "12.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/12.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/12_fixed.png"
+      ],
+      "command": "python docscan.py edges data/12.jpg --canny 50,150 -o out/personal/edges/12_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 23.0, \"canny\": [50, 150], \"edge_pct\": 0.38, \"segments\": 8, \"out\": \"out/personal/edges/12_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 23.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.38,
+          "segments": 8,
+          "out": "out/personal/edges/12_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd057",
+      "section": "edges",
+      "file": "12.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/12.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/12_no_close.png"
+      ],
+      "command": "python docscan.py edges data/12.jpg --close 0 -o out/personal/edges/12_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 22.0, \"canny\": [14, 29], \"edge_pct\": 7.88, \"segments\": 354, \"out\": \"out/personal/edges/12_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 22.0,
+          "canny": [
+            14,
+            29
+          ],
+          "edge_pct": 7.88,
+          "segments": 354,
+          "out": "out/personal/edges/12_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd058",
+      "section": "edges",
+      "file": "13.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/13.jpg",
+        "-o",
+        "out/personal/edges/13_median.png"
+      ],
+      "command": "python docscan.py edges data/13.jpg -o out/personal/edges/13_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 46.0, \"canny\": [30, 61], \"edge_pct\": 0.76, \"segments\": 19, \"out\": \"out/personal/edges/13_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 46.0,
+          "canny": [
+            30,
+            61
+          ],
+          "edge_pct": 0.76,
+          "segments": 19,
+          "out": "out/personal/edges/13_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd059",
+      "section": "edges",
+      "file": "13.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/13.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/13_fixed.png"
+      ],
+      "command": "python docscan.py edges data/13.jpg --canny 50,150 -o out/personal/edges/13_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 46.0, \"canny\": [50, 150], \"edge_pct\": 0.0, \"segments\": 0, \"out\": \"out/personal/edges/13_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 46.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.0,
+          "segments": 0,
+          "out": "out/personal/edges/13_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd060",
+      "section": "edges",
+      "file": "13.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/13.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/13_no_close.png"
+      ],
+      "command": "python docscan.py edges data/13.jpg --close 0 -o out/personal/edges/13_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 43.0, \"canny\": [28, 57], \"edge_pct\": 2.89, \"segments\": 80, \"out\": \"out/personal/edges/13_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 43.0,
+          "canny": [
+            28,
+            57
+          ],
+          "edge_pct": 2.89,
+          "segments": 80,
+          "out": "out/personal/edges/13_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd061",
+      "section": "edges",
+      "file": "14.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/14.jpg",
+        "-o",
+        "out/personal/edges/14_median.png"
+      ],
+      "command": "python docscan.py edges data/14.jpg -o out/personal/edges/14_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 22.0, \"canny\": [14, 29], \"edge_pct\": 2.18, \"segments\": 45, \"out\": \"out/personal/edges/14_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 22.0,
+          "canny": [
+            14,
+            29
+          ],
+          "edge_pct": 2.18,
+          "segments": 45,
+          "out": "out/personal/edges/14_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd062",
+      "section": "edges",
+      "file": "14.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/14.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/14_fixed.png"
+      ],
+      "command": "python docscan.py edges data/14.jpg --canny 50,150 -o out/personal/edges/14_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 22.0, \"canny\": [50, 150], \"edge_pct\": 0.0, \"segments\": 0, \"out\": \"out/personal/edges/14_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 22.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.0,
+          "segments": 0,
+          "out": "out/personal/edges/14_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd063",
+      "section": "edges",
+      "file": "14.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/14.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/14_no_close.png"
+      ],
+      "command": "python docscan.py edges data/14.jpg --close 0 -o out/personal/edges/14_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 20.0, \"canny\": [13, 26], \"edge_pct\": 6.93, \"segments\": 303, \"out\": \"out/personal/edges/14_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 20.0,
+          "canny": [
+            13,
+            26
+          ],
+          "edge_pct": 6.93,
+          "segments": 303,
+          "out": "out/personal/edges/14_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd064",
+      "section": "edges",
+      "file": "15.jpg",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/15.jpg",
+        "-o",
+        "out/personal/edges/15_median.png"
+      ],
+      "command": "python docscan.py edges data/15.jpg -o out/personal/edges/15_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 29.0, \"canny\": [19, 38], \"edge_pct\": 2.46, \"segments\": 59, \"out\": \"out/personal/edges/15_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 29.0,
+          "canny": [
+            19,
+            38
+          ],
+          "edge_pct": 2.46,
+          "segments": 59,
+          "out": "out/personal/edges/15_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd065",
+      "section": "edges",
+      "file": "15.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/15.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/edges/15_fixed.png"
+      ],
+      "command": "python docscan.py edges data/15.jpg --canny 50,150 -o out/personal/edges/15_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 29.0, \"canny\": [50, 150], \"edge_pct\": 0.14, \"segments\": 4, \"out\": \"out/personal/edges/15_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 29.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.14,
+          "segments": 4,
+          "out": "out/personal/edges/15_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd066",
+      "section": "edges",
+      "file": "15.jpg",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "edges",
+        "data/15.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/personal/edges/15_no_close.png"
+      ],
+      "command": "python docscan.py edges data/15.jpg --close 0 -o out/personal/edges/15_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 27.0, \"canny\": [18, 35], \"edge_pct\": 6.61, \"segments\": 237, \"out\": \"out/personal/edges/15_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 27.0,
+          "canny": [
+            18,
+            35
+          ],
+          "edge_pct": 6.61,
+          "segments": 237,
+          "out": "out/personal/edges/15_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd067",
+      "section": "eval",
+      "file": "data",
+      "setting": "median",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "eval",
+        "data/01.jpg",
+        "data/02.jpg",
+        "data/03.jpg",
+        "data/04.jpg",
+        "data/05.jpg",
+        "data/06.jpg",
+        "data/07.jpg",
+        "data/08.jpg",
+        "data/09.jpg",
+        "data/10.jpg",
+        "data/11.jpg",
+        "data/12.jpg",
+        "data/13.jpg",
+        "data/14.jpg",
+        "data/15.jpg",
+        "data/16.jpg",
+        "data/17.jpg",
+        "data/18.jpg",
+        "--ann",
+        "data/corners.json",
+        "--seeds",
+        "20",
+        "--csv",
+        "out/personal/eval_median.csv",
+        "--overlays",
+        "out/personal/eval_median"
+      ],
+      "command": "python docscan.py eval data/01.jpg data/02.jpg data/03.jpg data/04.jpg data/05.jpg data/06.jpg data/07.jpg data/08.jpg data/09.jpg data/10.jpg data/11.jpg data/12.jpg data/13.jpg data/14.jpg data/15.jpg data/16.jpg data/17.jpg data/18.jpg --ann data/corners.json --seeds 20 --csv out/personal/eval_median.csv --overlays out/personal/eval_median",
+      "returncode": 0,
+      "stdout": "{\"file\": \"01.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.973, \"contour_ms\": 31.3, \"hough_found\": true, \"hough_iou\": 0.966, \"hough_ms\": 70.5, \"auto_found\": true, \"auto_iou\": 0.973, \"auto_ms\": 9.8, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"02.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.8, \"hough_found\": true, \"hough_iou\": 0.802, \"hough_ms\": 55.2, \"auto_found\": true, \"auto_iou\": 0.926, \"auto_ms\": 126.8, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"03.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.99, \"contour_ms\": 9.2, \"hough_found\": true, \"hough_iou\": 0.953, \"hough_ms\": 90.3, \"auto_found\": true, \"auto_iou\": 0.99, \"auto_ms\": 11.8, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"04.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.9, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 56.5, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 85.6, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"05.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.6, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 55.2, \"auto_found\": true, \"auto_iou\": 0.958, \"auto_ms\": 86.3, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"06.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.1, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 9.6, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 34.7, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"07.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.4, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 31.5, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 57.2, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"08.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 9.3, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 63.1, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 85.1, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"09.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.0, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 50.9, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 79.7, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"10.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.8, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 8.6, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 31.2, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"11.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.9, \"hough_found\": true, \"hough_iou\": 0.936, \"hough_ms\": 71.4, \"auto_found\": true, \"auto_iou\": 0.936, \"auto_ms\": 103.5, \"auto_path\": \"hough\", \"hough_ok_of_20\": 20}\n{\"file\": \"12.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.5, \"hough_found\": true, \"hough_iou\": 0.917, \"hough_ms\": 63.2, \"auto_found\": true, \"auto_iou\": 0.917, \"auto_ms\": 93.0, \"auto_path\": \"hough\", \"hough_ok_of_20\": 15}\n{\"file\": \"13.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.981, \"contour_ms\": 11.4, \"hough_found\": true, \"hough_iou\": 0.975, \"hough_ms\": 54.5, \"auto_found\": true, \"auto_iou\": 0.981, \"auto_ms\": 9.3, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"14.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.5, \"hough_found\": true, \"hough_iou\": 0.623, \"hough_ms\": 60.8, \"auto_found\": true, \"auto_iou\": 0.919, \"auto_ms\": 98.4, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"15.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.0, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 60.0, \"auto_found\": true, \"auto_iou\": 0.94, \"auto_ms\": 100.6, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"16.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 7.9, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 56.8, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 87.3, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"file\": \"17.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 8.6, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 7.1, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 34.4, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"file\": \"18.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 8.6, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 28.8, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 71.4, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"command\": \"eval\", \"n\": 18, \"iou_ok\": 0.9, \"canny\": \"auto\", \"summary\": {\"contour\": {\"sheets\": 15, \"found_iou_ok\": 3, \"mean_iou\": 0.196, \"no_sheet\": 3, \"rejected\": 3, \"mean_ms\": 9.5}, \"hough\": {\"sheets\": 15, \"found_iou_ok\": 5, \"mean_iou\": 0.411, \"no_sheet\": 3, \"rejected\": 3, \"mean_ms\": 49.7}, \"auto\": {\"sheets\": 15, \"found_iou_ok\": 9, \"mean_iou\": 0.569, \"no_sheet\": 3, \"rejected\": 3, \"mean_ms\": 67.0}}, \"csv\": \"out/personal/eval_median.csv\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "file": "01.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.973,
+          "contour_ms": 31.3,
+          "hough_found": true,
+          "hough_iou": 0.966,
+          "hough_ms": 70.5,
+          "auto_found": true,
+          "auto_iou": 0.973,
+          "auto_ms": 9.8,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "02.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.8,
+          "hough_found": true,
+          "hough_iou": 0.802,
+          "hough_ms": 55.2,
+          "auto_found": true,
+          "auto_iou": 0.926,
+          "auto_ms": 126.8,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "03.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.99,
+          "contour_ms": 9.2,
+          "hough_found": true,
+          "hough_iou": 0.953,
+          "hough_ms": 90.3,
+          "auto_found": true,
+          "auto_iou": 0.99,
+          "auto_ms": 11.8,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "04.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.9,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 56.5,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 85.6,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "05.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.6,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 55.2,
+          "auto_found": true,
+          "auto_iou": 0.958,
+          "auto_ms": 86.3,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "06.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.1,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 9.6,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 34.7,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "07.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.4,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 31.5,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 57.2,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "08.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 9.3,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 63.1,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 85.1,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "09.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.0,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 50.9,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 79.7,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "10.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.8,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 8.6,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 31.2,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "11.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.9,
+          "hough_found": true,
+          "hough_iou": 0.936,
+          "hough_ms": 71.4,
+          "auto_found": true,
+          "auto_iou": 0.936,
+          "auto_ms": 103.5,
+          "auto_path": "hough",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "12.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.5,
+          "hough_found": true,
+          "hough_iou": 0.917,
+          "hough_ms": 63.2,
+          "auto_found": true,
+          "auto_iou": 0.917,
+          "auto_ms": 93.0,
+          "auto_path": "hough",
+          "hough_ok_of_20": 15
+        },
+        {
+          "file": "13.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.981,
+          "contour_ms": 11.4,
+          "hough_found": true,
+          "hough_iou": 0.975,
+          "hough_ms": 54.5,
+          "auto_found": true,
+          "auto_iou": 0.981,
+          "auto_ms": 9.3,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "14.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.5,
+          "hough_found": true,
+          "hough_iou": 0.623,
+          "hough_ms": 60.8,
+          "auto_found": true,
+          "auto_iou": 0.919,
+          "auto_ms": 98.4,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "15.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.0,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 60.0,
+          "auto_found": true,
+          "auto_iou": 0.94,
+          "auto_ms": 100.6,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "16.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 7.9,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 56.8,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 87.3,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "17.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 8.6,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 7.1,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 34.4,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "18.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 8.6,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 28.8,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 71.4,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "command": "eval",
+          "n": 18,
+          "iou_ok": 0.9,
+          "canny": "auto",
+          "summary": {
+            "contour": {
+              "sheets": 15,
+              "found_iou_ok": 3,
+              "mean_iou": 0.196,
+              "no_sheet": 3,
+              "rejected": 3,
+              "mean_ms": 9.5
+            },
+            "hough": {
+              "sheets": 15,
+              "found_iou_ok": 5,
+              "mean_iou": 0.411,
+              "no_sheet": 3,
+              "rejected": 3,
+              "mean_ms": 49.7
+            },
+            "auto": {
+              "sheets": 15,
+              "found_iou_ok": 9,
+              "mean_iou": 0.569,
+              "no_sheet": 3,
+              "rejected": 3,
+              "mean_ms": 67.0
+            }
+          },
+          "csv": "out/personal/eval_median.csv"
+        }
+      ]
+    },
+    {
+      "id": "cmd068",
+      "section": "eval",
+      "file": "data",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "eval",
+        "data/01.jpg",
+        "data/02.jpg",
+        "data/03.jpg",
+        "data/04.jpg",
+        "data/05.jpg",
+        "data/06.jpg",
+        "data/07.jpg",
+        "data/08.jpg",
+        "data/09.jpg",
+        "data/10.jpg",
+        "data/11.jpg",
+        "data/12.jpg",
+        "data/13.jpg",
+        "data/14.jpg",
+        "data/15.jpg",
+        "data/16.jpg",
+        "data/17.jpg",
+        "data/18.jpg",
+        "--ann",
+        "data/corners.json",
+        "--seeds",
+        "20",
+        "--canny",
+        "50,150",
+        "--csv",
+        "out/personal/eval_fixed.csv",
+        "--overlays",
+        "out/personal/eval_fixed"
+      ],
+      "command": "python docscan.py eval data/01.jpg data/02.jpg data/03.jpg data/04.jpg data/05.jpg data/06.jpg data/07.jpg data/08.jpg data/09.jpg data/10.jpg data/11.jpg data/12.jpg data/13.jpg data/14.jpg data/15.jpg data/16.jpg data/17.jpg data/18.jpg --ann data/corners.json --seeds 20 --canny 50,150 --csv out/personal/eval_fixed.csv --overlays out/personal/eval_fixed",
+      "returncode": 0,
+      "stdout": "{\"file\": \"01.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.973, \"contour_ms\": 30.6, \"hough_found\": true, \"hough_iou\": 0.966, \"hough_ms\": 70.6, \"auto_found\": true, \"auto_iou\": 0.973, \"auto_ms\": 8.9, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"02.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.0, \"hough_found\": true, \"hough_iou\": 0.804, \"hough_ms\": 54.7, \"auto_found\": true, \"auto_iou\": 0.926, \"auto_ms\": 129.1, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"03.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.99, \"contour_ms\": 8.4, \"hough_found\": true, \"hough_iou\": 0.951, \"hough_ms\": 73.2, \"auto_found\": true, \"auto_iou\": 0.99, \"auto_ms\": 8.9, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"04.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 20.8, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 50.6, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 82.3, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"05.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.1, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 18.0, \"auto_found\": true, \"auto_iou\": 0.958, \"auto_ms\": 52.9, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"06.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.4, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 7.7, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 33.3, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"07.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.1, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 61.8, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 65.1, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"08.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.8, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 64.2, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 55.1, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"09.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.1, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 6.7, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 35.3, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"10.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.7, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 6.5, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 30.2, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"11.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.7, \"hough_found\": true, \"hough_iou\": 0.937, \"hough_ms\": 54.6, \"auto_found\": true, \"auto_iou\": 0.937, \"auto_ms\": 105.9, \"auto_path\": \"hough\", \"hough_ok_of_20\": 19}\n{\"file\": \"12.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.8, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 41.1, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 63.1, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"13.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.9, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 6.7, \"auto_found\": true, \"auto_iou\": 0.976, \"auto_ms\": 41.7, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"14.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.0, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 6.9, \"auto_found\": true, \"auto_iou\": 0.919, \"auto_ms\": 41.8, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"15.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.5, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 17.5, \"auto_found\": true, \"auto_iou\": 0.94, \"auto_ms\": 58.5, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"16.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 7.5, \"hough_found\": true, \"hough_iou\": null, \"hough_ms\": 57.9, \"auto_found\": true, \"auto_iou\": null, \"auto_ms\": 91.0, \"auto_path\": \"hough\", \"hough_ok_of_20\": 0}\n{\"file\": \"17.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 7.9, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 7.2, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 33.2, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"file\": \"18.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 6.6, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 41.5, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 65.2, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"command\": \"eval\", \"n\": 18, \"iou_ok\": 0.9, \"canny\": [50, 150], \"summary\": {\"contour\": {\"sheets\": 15, \"found_iou_ok\": 2, \"mean_iou\": 0.131, \"no_sheet\": 3, \"rejected\": 3, \"mean_ms\": 9.2}, \"hough\": {\"sheets\": 15, \"found_iou_ok\": 3, \"mean_iou\": 0.244, \"no_sheet\": 3, \"rejected\": 2, \"mean_ms\": 36.0}, \"auto\": {\"sheets\": 15, \"found_iou_ok\": 8, \"mean_iou\": 0.508, \"no_sheet\": 3, \"rejected\": 2, \"mean_ms\": 55.6}}, \"csv\": \"out/personal/eval_fixed.csv\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "file": "01.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.973,
+          "contour_ms": 30.6,
+          "hough_found": true,
+          "hough_iou": 0.966,
+          "hough_ms": 70.6,
+          "auto_found": true,
+          "auto_iou": 0.973,
+          "auto_ms": 8.9,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "02.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.0,
+          "hough_found": true,
+          "hough_iou": 0.804,
+          "hough_ms": 54.7,
+          "auto_found": true,
+          "auto_iou": 0.926,
+          "auto_ms": 129.1,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "03.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.99,
+          "contour_ms": 8.4,
+          "hough_found": true,
+          "hough_iou": 0.951,
+          "hough_ms": 73.2,
+          "auto_found": true,
+          "auto_iou": 0.99,
+          "auto_ms": 8.9,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "04.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 20.8,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 50.6,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 82.3,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "05.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.1,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 18.0,
+          "auto_found": true,
+          "auto_iou": 0.958,
+          "auto_ms": 52.9,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "06.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.4,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 7.7,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 33.3,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "07.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.1,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 61.8,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 65.1,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "08.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.8,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 64.2,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 55.1,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "09.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.1,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 6.7,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 35.3,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "10.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.7,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 6.5,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 30.2,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "11.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.7,
+          "hough_found": true,
+          "hough_iou": 0.937,
+          "hough_ms": 54.6,
+          "auto_found": true,
+          "auto_iou": 0.937,
+          "auto_ms": 105.9,
+          "auto_path": "hough",
+          "hough_ok_of_20": 19
+        },
+        {
+          "file": "12.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.8,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 41.1,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 63.1,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "13.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.9,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 6.7,
+          "auto_found": true,
+          "auto_iou": 0.976,
+          "auto_ms": 41.7,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "14.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.0,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 6.9,
+          "auto_found": true,
+          "auto_iou": 0.919,
+          "auto_ms": 41.8,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "15.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.5,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 17.5,
+          "auto_found": true,
+          "auto_iou": 0.94,
+          "auto_ms": 58.5,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "16.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 7.5,
+          "hough_found": true,
+          "hough_iou": null,
+          "hough_ms": 57.9,
+          "auto_found": true,
+          "auto_iou": null,
+          "auto_ms": 91.0,
+          "auto_path": "hough",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "17.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 7.9,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 7.2,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 33.2,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "18.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 6.6,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 41.5,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 65.2,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "command": "eval",
+          "n": 18,
+          "iou_ok": 0.9,
+          "canny": [
+            50,
+            150
+          ],
+          "summary": {
+            "contour": {
+              "sheets": 15,
+              "found_iou_ok": 2,
+              "mean_iou": 0.131,
+              "no_sheet": 3,
+              "rejected": 3,
+              "mean_ms": 9.2
+            },
+            "hough": {
+              "sheets": 15,
+              "found_iou_ok": 3,
+              "mean_iou": 0.244,
+              "no_sheet": 3,
+              "rejected": 2,
+              "mean_ms": 36.0
+            },
+            "auto": {
+              "sheets": 15,
+              "found_iou_ok": 8,
+              "mean_iou": 0.508,
+              "no_sheet": 3,
+              "rejected": 2,
+              "mean_ms": 55.6
+            }
+          },
+          "csv": "out/personal/eval_fixed.csv"
+        }
+      ]
+    },
+    {
+      "id": "cmd069",
+      "section": "eval",
+      "file": "data",
+      "setting": "no_close",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "eval",
+        "data/01.jpg",
+        "data/02.jpg",
+        "data/03.jpg",
+        "data/04.jpg",
+        "data/05.jpg",
+        "data/06.jpg",
+        "data/07.jpg",
+        "data/08.jpg",
+        "data/09.jpg",
+        "data/10.jpg",
+        "data/11.jpg",
+        "data/12.jpg",
+        "data/13.jpg",
+        "data/14.jpg",
+        "data/15.jpg",
+        "data/16.jpg",
+        "data/17.jpg",
+        "data/18.jpg",
+        "--ann",
+        "data/corners.json",
+        "--seeds",
+        "20",
+        "--close",
+        "0",
+        "--csv",
+        "out/personal/eval_no_close.csv",
+        "--overlays",
+        "out/personal/eval_no_close"
+      ],
+      "command": "python docscan.py eval data/01.jpg data/02.jpg data/03.jpg data/04.jpg data/05.jpg data/06.jpg data/07.jpg data/08.jpg data/09.jpg data/10.jpg data/11.jpg data/12.jpg data/13.jpg data/14.jpg data/15.jpg data/16.jpg data/17.jpg data/18.jpg --ann data/corners.json --seeds 20 --close 0 --csv out/personal/eval_no_close.csv --overlays out/personal/eval_no_close",
+      "returncode": 0,
+      "stdout": "{\"file\": \"01.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.973, \"contour_ms\": 31.3, \"hough_found\": true, \"hough_iou\": 0.967, \"hough_ms\": 71.1, \"auto_found\": true, \"auto_iou\": 0.973, \"auto_ms\": 11.2, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"02.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.9, \"hough_found\": true, \"hough_iou\": 0.779, \"hough_ms\": 59.1, \"auto_found\": true, \"auto_iou\": 0.926, \"auto_ms\": 136.3, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"03.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.99, \"contour_ms\": 11.4, \"hough_found\": true, \"hough_iou\": 0.78, \"hough_ms\": 59.8, \"auto_found\": true, \"auto_iou\": 0.99, \"auto_ms\": 9.6, \"auto_path\": \"contour\", \"hough_ok_of_20\": 0}\n{\"file\": \"04.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.7, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 84.9, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 114.8, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"05.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.8, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 85.7, \"auto_found\": true, \"auto_iou\": 0.958, \"auto_ms\": 120.2, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"06.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.3, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 29.9, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 56.5, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"07.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.5, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 55.2, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 78.2, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"08.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.1, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 74.1, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 92.6, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"09.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.3, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 57.9, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 86.1, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"10.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 7.3, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 54.0, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 83.8, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"11.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.0, \"hough_found\": true, \"hough_iou\": 0.806, \"hough_ms\": 63.1, \"auto_found\": true, \"auto_iou\": 0.97, \"auto_ms\": 107.7, \"auto_path\": \"colour\", \"hough_ok_of_20\": 13}\n{\"file\": \"12.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 9.3, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 90.6, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 113.4, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"13.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.981, \"contour_ms\": 8.9, \"hough_found\": true, \"hough_iou\": 0.597, \"hough_ms\": 64.8, \"auto_found\": true, \"auto_iou\": 0.981, \"auto_ms\": 8.8, \"auto_path\": \"contour\", \"hough_ok_of_20\": 0}\n{\"file\": \"14.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 9.0, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 79.6, \"auto_found\": true, \"auto_iou\": 0.919, \"auto_ms\": 119.3, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"15.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 8.1, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 77.4, \"auto_found\": true, \"auto_iou\": 0.94, \"auto_ms\": 114.9, \"auto_path\": \"colour\", \"hough_ok_of_20\": 0}\n{\"file\": \"16.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 7.7, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 66.2, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 92.9, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"file\": \"17.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 7.9, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 71.1, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 76.0, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"file\": \"18.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 8.1, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 63.3, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 85.8, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"command\": \"eval\", \"n\": 18, \"iou_ok\": 0.9, \"canny\": \"auto\", \"summary\": {\"contour\": {\"sheets\": 15, \"found_iou_ok\": 3, \"mean_iou\": 0.196, \"no_sheet\": 3, \"rejected\": 3, \"mean_ms\": 9.7}, \"hough\": {\"sheets\": 15, \"found_iou_ok\": 1, \"mean_iou\": 0.262, \"no_sheet\": 3, \"rejected\": 3, \"mean_ms\": 67.1}, \"auto\": {\"sheets\": 15, \"found_iou_ok\": 8, \"mean_iou\": 0.51, \"no_sheet\": 3, \"rejected\": 3, \"mean_ms\": 83.8}}, \"csv\": \"out/personal/eval_no_close.csv\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "file": "01.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.973,
+          "contour_ms": 31.3,
+          "hough_found": true,
+          "hough_iou": 0.967,
+          "hough_ms": 71.1,
+          "auto_found": true,
+          "auto_iou": 0.973,
+          "auto_ms": 11.2,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "02.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.9,
+          "hough_found": true,
+          "hough_iou": 0.779,
+          "hough_ms": 59.1,
+          "auto_found": true,
+          "auto_iou": 0.926,
+          "auto_ms": 136.3,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "03.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.99,
+          "contour_ms": 11.4,
+          "hough_found": true,
+          "hough_iou": 0.78,
+          "hough_ms": 59.8,
+          "auto_found": true,
+          "auto_iou": 0.99,
+          "auto_ms": 9.6,
+          "auto_path": "contour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "04.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.7,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 84.9,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 114.8,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "05.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.8,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 85.7,
+          "auto_found": true,
+          "auto_iou": 0.958,
+          "auto_ms": 120.2,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "06.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.3,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 29.9,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 56.5,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "07.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.5,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 55.2,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 78.2,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "08.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.1,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 74.1,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 92.6,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "09.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.3,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 57.9,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 86.1,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "10.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 7.3,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 54.0,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 83.8,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "11.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.0,
+          "hough_found": true,
+          "hough_iou": 0.806,
+          "hough_ms": 63.1,
+          "auto_found": true,
+          "auto_iou": 0.97,
+          "auto_ms": 107.7,
+          "auto_path": "colour",
+          "hough_ok_of_20": 13
+        },
+        {
+          "file": "12.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 9.3,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 90.6,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 113.4,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "13.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.981,
+          "contour_ms": 8.9,
+          "hough_found": true,
+          "hough_iou": 0.597,
+          "hough_ms": 64.8,
+          "auto_found": true,
+          "auto_iou": 0.981,
+          "auto_ms": 8.8,
+          "auto_path": "contour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "14.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 9.0,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 79.6,
+          "auto_found": true,
+          "auto_iou": 0.919,
+          "auto_ms": 119.3,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "15.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 8.1,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 77.4,
+          "auto_found": true,
+          "auto_iou": 0.94,
+          "auto_ms": 114.9,
+          "auto_path": "colour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "16.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 7.7,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 66.2,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 92.9,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "17.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 7.9,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 71.1,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 76.0,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "18.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 8.1,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 63.3,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 85.8,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "command": "eval",
+          "n": 18,
+          "iou_ok": 0.9,
+          "canny": "auto",
+          "summary": {
+            "contour": {
+              "sheets": 15,
+              "found_iou_ok": 3,
+              "mean_iou": 0.196,
+              "no_sheet": 3,
+              "rejected": 3,
+              "mean_ms": 9.7
+            },
+            "hough": {
+              "sheets": 15,
+              "found_iou_ok": 1,
+              "mean_iou": 0.262,
+              "no_sheet": 3,
+              "rejected": 3,
+              "mean_ms": 67.1
+            },
+            "auto": {
+              "sheets": 15,
+              "found_iou_ok": 8,
+              "mean_iou": 0.51,
+              "no_sheet": 3,
+              "rejected": 3,
+              "mean_ms": 83.8
+            }
+          },
+          "csv": "out/personal/eval_no_close.csv"
+        }
+      ]
+    },
+    {
+      "id": "cmd070",
+      "section": "scan",
+      "file": "01.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/01.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/01_scan.png"
+      ],
+      "command": "python docscan.py scan data/01.jpg --method auto --canny 50,150 -o out/personal/scans/01_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[197.9, 516.7], [951.1, 526.1], [1047.9, 1663.6], [157.3, 1679.2]], \"size_out\": [891, 1260], \"binarize\": \"flat\", \"out\": \"out/personal/scans/01_scan.png\", \"noise_sigma\": 5.19, \"filter_sigma\": 1.46, \"median\": 109.0, \"canny\": [50, 150], \"edge_pct\": 0.55, \"path\": \"contour\", \"ms\": 30.7}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              197.9,
+              516.7
+            ],
+            [
+              951.1,
+              526.1
+            ],
+            [
+              1047.9,
+              1663.6
+            ],
+            [
+              157.3,
+              1679.2
+            ]
+          ],
+          "size_out": [
+            891,
+            1260
+          ],
+          "binarize": "flat",
+          "out": "out/personal/scans/01_scan.png",
+          "noise_sigma": 5.19,
+          "filter_sigma": 1.46,
+          "median": 109.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.55,
+          "path": "contour",
+          "ms": 30.7
+        }
+      ]
+    },
+    {
+      "id": "cmd071",
+      "section": "binarize",
+      "file": "01.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "out/personal/scans/01_scan.png",
+        "--method",
+        "all",
+        "-o",
+        "out/personal/scans/01_bw.png"
+      ],
+      "command": "python docscan.py binarize out/personal/scans/01_scan.png --method all -o out/personal/scans/01_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 15.84}, \"adaptive\": {\"ink_pct\": 12.46}, \"flat\": {\"ink_pct\": 10.4}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 15.84
+          },
+          "adaptive": {
+            "ink_pct": 12.46
+          },
+          "flat": {
+            "ink_pct": 10.4
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd072",
+      "section": "scan",
+      "file": "02.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/02.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/02_scan.png"
+      ],
+      "command": "python docscan.py scan data/02.jpg --method auto --canny 50,150 -o out/personal/scans/02_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[255.8, 847.4], [805.8, 839.1], [1122.4, 1314.1], [1.6, 1501.6]], \"size_out\": [1136, 1607], \"binarize\": \"flat\", \"out\": \"out/personal/scans/02_scan.png\", \"noise_sigma\": 2.72, \"filter_sigma\": 1.0, \"median\": 117.0, \"canny\": [50, 150], \"edge_pct\": 0.73, \"region_confidence\": 1.761, \"path\": \"colour\", \"ms\": 168.9}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              255.8,
+              847.4
+            ],
+            [
+              805.8,
+              839.1
+            ],
+            [
+              1122.4,
+              1314.1
+            ],
+            [
+              1.6,
+              1501.6
+            ]
+          ],
+          "size_out": [
+            1136,
+            1607
+          ],
+          "binarize": "flat",
+          "out": "out/personal/scans/02_scan.png",
+          "noise_sigma": 2.72,
+          "filter_sigma": 1.0,
+          "median": 117.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.73,
+          "region_confidence": 1.761,
+          "path": "colour",
+          "ms": 168.9
+        }
+      ]
+    },
+    {
+      "id": "cmd073",
+      "section": "binarize",
+      "file": "02.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "out/personal/scans/02_scan.png",
+        "--method",
+        "all",
+        "-o",
+        "out/personal/scans/02_bw.png"
+      ],
+      "command": "python docscan.py binarize out/personal/scans/02_scan.png --method all -o out/personal/scans/02_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 11.22}, \"adaptive\": {\"ink_pct\": 12.47}, \"flat\": {\"ink_pct\": 11.22}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 11.22
+          },
+          "adaptive": {
+            "ink_pct": 12.47
+          },
+          "flat": {
+            "ink_pct": 11.22
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd074",
+      "section": "scan",
+      "file": "03.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/03.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/03_scan.png"
+      ],
+      "command": "python docscan.py scan data/03.jpg --method auto --canny 50,150 -o out/personal/scans/03_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[269.8, 704.2], [844.8, 682.3], [1069.8, 1469.8], [169.8, 1551.1]], \"size_out\": [904, 1279], \"binarize\": \"flat\", \"out\": \"out/personal/scans/03_scan.png\", \"noise_sigma\": 4.69, \"filter_sigma\": 1.32, \"median\": 107.0, \"canny\": [50, 150], \"edge_pct\": 0.51, \"path\": \"contour\", \"ms\": 30.9}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              269.8,
+              704.2
+            ],
+            [
+              844.8,
+              682.3
+            ],
+            [
+              1069.8,
+              1469.8
+            ],
+            [
+              169.8,
+              1551.1
+            ]
+          ],
+          "size_out": [
+            904,
+            1279
+          ],
+          "binarize": "flat",
+          "out": "out/personal/scans/03_scan.png",
+          "noise_sigma": 4.69,
+          "filter_sigma": 1.32,
+          "median": 107.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.51,
+          "path": "contour",
+          "ms": 30.9
+        }
+      ]
+    },
+    {
+      "id": "cmd075",
+      "section": "binarize",
+      "file": "03.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "out/personal/scans/03_scan.png",
+        "--method",
+        "all",
+        "-o",
+        "out/personal/scans/03_bw.png"
+      ],
+      "command": "python docscan.py binarize out/personal/scans/03_scan.png --method all -o out/personal/scans/03_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 11.87}, \"adaptive\": {\"ink_pct\": 13.14}, \"flat\": {\"ink_pct\": 11.39}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 11.87
+          },
+          "adaptive": {
+            "ink_pct": 13.14
+          },
+          "flat": {
+            "ink_pct": 11.39
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd076",
+      "section": "scan",
+      "file": "04.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/04.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/04_scan.png"
+      ],
+      "command": "python docscan.py scan data/04.jpg --method auto --canny 50,150 -o out/personal/scans/04_scan.png",
+      "returncode": 1,
+      "stdout": "{\"command\": \"scan\", \"found\": false, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 28.0, \"canny\": [50, 150], \"edge_pct\": 0.31, \"path\": null, \"ms\": 149.1}\n",
+      "stderr": "лист не найден — скан не построен (попробуйте другие пороги: --canny 50,150; другой путь: --method hough; или углы руками: --corners)\n",
+      "json": [
+        {
+          "command": "scan",
+          "found": false,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 28.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.31,
+          "path": null,
+          "ms": 149.1
+        }
+      ]
+    },
+    {
+      "id": "cmd077",
+      "section": "scan",
+      "file": "05.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/05.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/05_scan.png"
+      ],
+      "command": "python docscan.py scan data/05.jpg --method auto --canny 50,150 -o out/personal/scans/05_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[151.6, 272.4], [805.8, 255.8], [1122.4, 1034.9], [1.6, 1089.1]], \"size_out\": [1122, 1587], \"binarize\": \"flat\", \"out\": \"out/personal/scans/05_scan.png\", \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 25.0, \"canny\": [50, 150], \"edge_pct\": 0.16, \"region_confidence\": 0.882, \"path\": \"colour\", \"ms\": 119.4}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              151.6,
+              272.4
+            ],
+            [
+              805.8,
+              255.8
+            ],
+            [
+              1122.4,
+              1034.9
+            ],
+            [
+              1.6,
+              1089.1
+            ]
+          ],
+          "size_out": [
+            1122,
+            1587
+          ],
+          "binarize": "flat",
+          "out": "out/personal/scans/05_scan.png",
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 25.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.16,
+          "region_confidence": 0.882,
+          "path": "colour",
+          "ms": 119.4
+        }
+      ]
+    },
+    {
+      "id": "cmd078",
+      "section": "binarize",
+      "file": "05.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "out/personal/scans/05_scan.png",
+        "--method",
+        "all",
+        "-o",
+        "out/personal/scans/05_bw.png"
+      ],
+      "command": "python docscan.py binarize out/personal/scans/05_scan.png --method all -o out/personal/scans/05_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 44.34}, \"adaptive\": {\"ink_pct\": 3.77}, \"flat\": {\"ink_pct\": 10.26}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 44.34
+          },
+          "adaptive": {
+            "ink_pct": 3.77
+          },
+          "flat": {
+            "ink_pct": 10.26
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd079",
+      "section": "scan",
+      "file": "06.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/06.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/06_scan.png"
+      ],
+      "command": "python docscan.py scan data/06.jpg --method auto --canny 50,150 -o out/personal/scans/06_scan.png",
+      "returncode": 1,
+      "stdout": "{\"command\": \"scan\", \"found\": false, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 192.0, \"canny\": [50, 150], \"edge_pct\": 0.07, \"path\": null, \"ms\": 82.9}\n",
+      "stderr": "лист не найден — скан не построен (попробуйте другие пороги: --canny 50,150; другой путь: --method hough; или углы руками: --corners)\n",
+      "json": [
+        {
+          "command": "scan",
+          "found": false,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 192.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.07,
+          "path": null,
+          "ms": 82.9
+        }
+      ]
+    },
+    {
+      "id": "cmd080",
+      "section": "scan",
+      "file": "07.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/07.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/07_scan.png"
+      ],
+      "command": "python docscan.py scan data/07.jpg --method auto --canny 50,150 -o out/personal/scans/07_scan.png",
+      "returncode": 1,
+      "stdout": "{\"command\": \"scan\", \"found\": false, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 190.0, \"canny\": [50, 150], \"edge_pct\": 0.42, \"path\": null, \"ms\": 130.2}\n",
+      "stderr": "лист не найден — скан не построен (попробуйте другие пороги: --canny 50,150; другой путь: --method hough; или углы руками: --corners)\n",
+      "json": [
+        {
+          "command": "scan",
+          "found": false,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 190.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.42,
+          "path": null,
+          "ms": 130.2
+        }
+      ]
+    },
+    {
+      "id": "cmd081",
+      "section": "scan",
+      "file": "08.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/08.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/08_scan.png"
+      ],
+      "command": "python docscan.py scan data/08.jpg --method auto --canny 50,150 -o out/personal/scans/08_scan.png",
+      "returncode": 1,
+      "stdout": "{\"command\": \"scan\", \"found\": false, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 23.0, \"canny\": [50, 150], \"edge_pct\": 0.16, \"path\": null, \"ms\": 119.0}\n",
+      "stderr": "лист не найден — скан не построен (попробуйте другие пороги: --canny 50,150; другой путь: --method hough; или углы руками: --corners)\n",
+      "json": [
+        {
+          "command": "scan",
+          "found": false,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 23.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.16,
+          "path": null,
+          "ms": 119.0
+        }
+      ]
+    },
+    {
+      "id": "cmd082",
+      "section": "scan",
+      "file": "09.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/09.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/09_scan.png"
+      ],
+      "command": "python docscan.py scan data/09.jpg --method auto --canny 50,150 -o out/personal/scans/09_scan.png",
+      "returncode": 1,
+      "stdout": "{\"command\": \"scan\", \"found\": false, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 52.0, \"canny\": [50, 150], \"edge_pct\": 0.07, \"path\": null, \"ms\": 87.8}\n",
+      "stderr": "лист не найден — скан не построен (попробуйте другие пороги: --canny 50,150; другой путь: --method hough; или углы руками: --corners)\n",
+      "json": [
+        {
+          "command": "scan",
+          "found": false,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 52.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.07,
+          "path": null,
+          "ms": 87.8
+        }
+      ]
+    },
+    {
+      "id": "cmd083",
+      "section": "scan",
+      "file": "10.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/10.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/10_scan.png"
+      ],
+      "command": "python docscan.py scan data/10.jpg --method auto --canny 50,150 -o out/personal/scans/10_scan.png",
+      "returncode": 1,
+      "stdout": "{\"command\": \"scan\", \"found\": false, \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 51.0, \"canny\": [50, 150], \"edge_pct\": 0.0, \"path\": null, \"ms\": 82.8}\n",
+      "stderr": "лист не найден — скан не построен (попробуйте другие пороги: --canny 50,150; другой путь: --method hough; или углы руками: --corners)\n",
+      "json": [
+        {
+          "command": "scan",
+          "found": false,
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 51.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.0,
+          "path": null,
+          "ms": 82.8
+        }
+      ]
+    },
+    {
+      "id": "cmd084",
+      "section": "scan",
+      "file": "11.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/11.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/11_scan.png"
+      ],
+      "command": "python docscan.py scan data/11.jpg --method auto --canny 50,150 -o out/personal/scans/11_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[225.0, 646.0], [828.9, 612.7], [1122.1, 1385.7], [16.2, 1437.1]], \"size_out\": [1107, 1566], \"binarize\": \"flat\", \"out\": \"out/personal/scans/11_scan.png\", \"noise_sigma\": 1.24, \"filter_sigma\": 1.0, \"median\": 113.0, \"canny\": [50, 150], \"edge_pct\": 1.55, \"path\": \"hough\", \"ms\": 170.1}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              225.0,
+              646.0
+            ],
+            [
+              828.9,
+              612.7
+            ],
+            [
+              1122.1,
+              1385.7
+            ],
+            [
+              16.2,
+              1437.1
+            ]
+          ],
+          "size_out": [
+            1107,
+            1566
+          ],
+          "binarize": "flat",
+          "out": "out/personal/scans/11_scan.png",
+          "noise_sigma": 1.24,
+          "filter_sigma": 1.0,
+          "median": 113.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 1.55,
+          "path": "hough",
+          "ms": 170.1
+        }
+      ]
+    },
+    {
+      "id": "cmd085",
+      "section": "binarize",
+      "file": "11.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "out/personal/scans/11_scan.png",
+        "--method",
+        "all",
+        "-o",
+        "out/personal/scans/11_bw.png"
+      ],
+      "command": "python docscan.py binarize out/personal/scans/11_scan.png --method all -o out/personal/scans/11_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 10.78}, \"adaptive\": {\"ink_pct\": 11.67}, \"flat\": {\"ink_pct\": 9.45}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 10.78
+          },
+          "adaptive": {
+            "ink_pct": 11.67
+          },
+          "flat": {
+            "ink_pct": 9.45
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd086",
+      "section": "scan",
+      "file": "12.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/12.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/12_scan.png"
+      ],
+      "command": "python docscan.py scan data/12.jpg --method auto --canny 50,150 -o out/personal/scans/12_scan.png",
+      "returncode": 1,
+      "stdout": "{\"command\": \"scan\", \"found\": false, \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 23.0, \"canny\": [50, 150], \"edge_pct\": 0.38, \"path\": null, \"ms\": 131.1}\n",
+      "stderr": "лист не найден — скан не построен (попробуйте другие пороги: --canny 50,150; другой путь: --method hough; или углы руками: --corners)\n",
+      "json": [
+        {
+          "command": "scan",
+          "found": false,
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 23.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.38,
+          "path": null,
+          "ms": 131.1
+        }
+      ]
+    },
+    {
+      "id": "cmd087",
+      "section": "scan",
+      "file": "13.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/13.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/13_scan.png"
+      ],
+      "command": "python docscan.py scan data/13.jpg --method auto --canny 50,150 -o out/personal/scans/13_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[105.8, 434.9], [972.4, 455.8], [968.2, 1693.2], [105.8, 1680.8]], \"size_out\": [881, 1246], \"binarize\": \"flat\", \"out\": \"out/personal/scans/13_scan.png\", \"noise_sigma\": 0.74, \"filter_sigma\": 1.0, \"median\": 46.0, \"canny\": [50, 150], \"edge_pct\": 0.0, \"region_confidence\": 1.698, \"path\": \"colour\", \"ms\": 96.3}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              105.8,
+              434.9
+            ],
+            [
+              972.4,
+              455.8
+            ],
+            [
+              968.2,
+              1693.2
+            ],
+            [
+              105.8,
+              1680.8
+            ]
+          ],
+          "size_out": [
+            881,
+            1246
+          ],
+          "binarize": "flat",
+          "out": "out/personal/scans/13_scan.png",
+          "noise_sigma": 0.74,
+          "filter_sigma": 1.0,
+          "median": 46.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.0,
+          "region_confidence": 1.698,
+          "path": "colour",
+          "ms": 96.3
+        }
+      ]
+    },
+    {
+      "id": "cmd088",
+      "section": "binarize",
+      "file": "13.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "out/personal/scans/13_scan.png",
+        "--method",
+        "all",
+        "-o",
+        "out/personal/scans/13_bw.png"
+      ],
+      "command": "python docscan.py binarize out/personal/scans/13_scan.png --method all -o out/personal/scans/13_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 39.71}, \"adaptive\": {\"ink_pct\": 7.75}, \"flat\": {\"ink_pct\": 13.36}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 39.71
+          },
+          "adaptive": {
+            "ink_pct": 7.75
+          },
+          "flat": {
+            "ink_pct": 13.36
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd089",
+      "section": "scan",
+      "file": "14.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/14.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/14_scan.png"
+      ],
+      "command": "python docscan.py scan data/14.jpg --method auto --canny 50,150 -o out/personal/scans/14_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[41.2, 991.2], [478.7, 553.7], [1095.3, 1170.3], [657.8, 1607.8]], \"size_out\": [619, 875], \"binarize\": \"flat\", \"out\": \"out/personal/scans/14_scan.png\", \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 22.0, \"canny\": [50, 150], \"edge_pct\": 0.0, \"region_confidence\": 0.908, \"path\": \"colour\", \"ms\": 96.9}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              41.2,
+              991.2
+            ],
+            [
+              478.7,
+              553.7
+            ],
+            [
+              1095.3,
+              1170.3
+            ],
+            [
+              657.8,
+              1607.8
+            ]
+          ],
+          "size_out": [
+            619,
+            875
+          ],
+          "binarize": "flat",
+          "out": "out/personal/scans/14_scan.png",
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 22.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.0,
+          "region_confidence": 0.908,
+          "path": "colour",
+          "ms": 96.9
+        }
+      ]
+    },
+    {
+      "id": "cmd090",
+      "section": "binarize",
+      "file": "14.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "out/personal/scans/14_scan.png",
+        "--method",
+        "all",
+        "-o",
+        "out/personal/scans/14_bw.png"
+      ],
+      "command": "python docscan.py binarize out/personal/scans/14_scan.png --method all -o out/personal/scans/14_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 33.82}, \"adaptive\": {\"ink_pct\": 6.38}, \"flat\": {\"ink_pct\": 14.78}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 33.82
+          },
+          "adaptive": {
+            "ink_pct": 6.38
+          },
+          "flat": {
+            "ink_pct": 14.78
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd091",
+      "section": "scan",
+      "file": "15.jpg",
+      "setting": "fixed",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "scan",
+        "data/15.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/personal/scans/15_scan.png"
+      ],
+      "command": "python docscan.py scan data/15.jpg --method auto --canny 50,150 -o out/personal/scans/15_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[268.2, 614.1], [880.8, 534.9], [1105.8, 1359.9], [164.1, 1447.4]], \"size_out\": [946, 1338], \"binarize\": \"flat\", \"out\": \"out/personal/scans/15_scan.png\", \"noise_sigma\": 0.49, \"filter_sigma\": 1.0, \"median\": 29.0, \"canny\": [50, 150], \"edge_pct\": 0.14, \"region_confidence\": 0.851, \"path\": \"colour\", \"ms\": 123.8}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              268.2,
+              614.1
+            ],
+            [
+              880.8,
+              534.9
+            ],
+            [
+              1105.8,
+              1359.9
+            ],
+            [
+              164.1,
+              1447.4
+            ]
+          ],
+          "size_out": [
+            946,
+            1338
+          ],
+          "binarize": "flat",
+          "out": "out/personal/scans/15_scan.png",
+          "noise_sigma": 0.49,
+          "filter_sigma": 1.0,
+          "median": 29.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.14,
+          "region_confidence": 0.851,
+          "path": "colour",
+          "ms": 123.8
+        }
+      ]
+    },
+    {
+      "id": "cmd092",
+      "section": "binarize",
+      "file": "15.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "out/personal/scans/15_scan.png",
+        "--method",
+        "all",
+        "-o",
+        "out/personal/scans/15_bw.png"
+      ],
+      "command": "python docscan.py binarize out/personal/scans/15_scan.png --method all -o out/personal/scans/15_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 44.52}, \"adaptive\": {\"ink_pct\": 6.64}, \"flat\": {\"ink_pct\": 15.33}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 44.52
+          },
+          "adaptive": {
+            "ink_pct": 6.64
+          },
+          "flat": {
+            "ink_pct": 15.33
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd093",
+      "section": "lamp",
+      "file": "sample_data/L3/text-lamp.png",
+      "setting": "all",
+      "argv": [
+        "C:\\cv\\iu-intro-cv\\.venv\\Scripts\\python.exe",
+        "C:\\cv\\iu-intro-cv\\homeworks\\hw2-docscan\\docscan.py",
+        "binarize",
+        "sample_data/L3/text-lamp.png",
+        "--gt",
+        "sample_data/L3/text-gt.png",
+        "-o",
+        "out/personal/lamp.png"
+      ],
+      "command": "python docscan.py binarize sample_data/L3/text-lamp.png --gt sample_data/L3/text-gt.png -o out/personal/lamp.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 51.1, \"match_pct\": 56.8}, \"adaptive\": {\"ink_pct\": 9.04, \"match_pct\": 98.8}, \"flat\": {\"ink_pct\": 7.92, \"match_pct\": 99.9}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 51.1,
+            "match_pct": 56.8
+          },
+          "adaptive": {
+            "ink_pct": 9.04,
+            "match_pct": 98.8
+          },
+          "flat": {
+            "ink_pct": 7.92,
+            "match_pct": 99.9
+          }
+        }
+      ]
+    }
+  ],
+  "finished_utc": "2026-11-02T20:37:35.452943+00:00"
+}

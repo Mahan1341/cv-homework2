@@ -1,0 +1,73 @@
+# Выполнять из папки, содержащей docscan.py.
+# python — интерпретатор активированного окружения.
+
+# cmd001
+python docscan.py noise sample_data/corner.jpg
+# cmd002
+python docscan.py noise sample_data/desk.jpg
+# cmd003
+python docscan.py noise sample_data/nosheet.jpg
+# cmd004
+python docscan.py noise sample_data/plain.jpg
+# cmd005
+python docscan.py noise sample_data/tiles.jpg
+# cmd006
+python docscan.py noise sample_data/desk.jpg --add-sigma 5
+# cmd007
+python docscan.py noise sample_data/desk.jpg --add-sigma 10
+# cmd008
+python docscan.py noise sample_data/desk.jpg --add-sigma 25
+# cmd009
+python docscan.py edges sample_data/corner.jpg -o out/course/edges/corner_median.png
+# cmd010
+python docscan.py edges sample_data/corner.jpg --canny 50,150 -o out/course/edges/corner_fixed.png
+# cmd011
+python docscan.py edges sample_data/corner.jpg --close 0 -o out/course/edges/corner_no_close.png
+# cmd012
+python docscan.py edges sample_data/desk.jpg -o out/course/edges/desk_median.png
+# cmd013
+python docscan.py edges sample_data/desk.jpg --canny 50,150 -o out/course/edges/desk_fixed.png
+# cmd014
+python docscan.py edges sample_data/desk.jpg --close 0 -o out/course/edges/desk_no_close.png
+# cmd015
+python docscan.py edges sample_data/plain.jpg -o out/course/edges/plain_median.png
+# cmd016
+python docscan.py edges sample_data/plain.jpg --canny 50,150 -o out/course/edges/plain_fixed.png
+# cmd017
+python docscan.py edges sample_data/plain.jpg --close 0 -o out/course/edges/plain_no_close.png
+# cmd018
+python docscan.py edges sample_data/tiles.jpg -o out/course/edges/tiles_median.png
+# cmd019
+python docscan.py edges sample_data/tiles.jpg --canny 50,150 -o out/course/edges/tiles_fixed.png
+# cmd020
+python docscan.py edges sample_data/tiles.jpg --close 0 -o out/course/edges/tiles_no_close.png
+# cmd021
+python docscan.py eval sample_data/corner.jpg sample_data/desk.jpg sample_data/nosheet.jpg sample_data/plain.jpg sample_data/tiles.jpg --ann sample_data/corners.json --seeds 20 --csv out/course/eval_median.csv --overlays out/course/eval_median
+# cmd022
+python docscan.py eval sample_data/corner.jpg sample_data/desk.jpg sample_data/nosheet.jpg sample_data/plain.jpg sample_data/tiles.jpg --ann sample_data/corners.json --seeds 20 --canny 50,150 --csv out/course/eval_fixed.csv --overlays out/course/eval_fixed
+# cmd023
+python docscan.py eval sample_data/corner.jpg sample_data/desk.jpg sample_data/nosheet.jpg sample_data/plain.jpg sample_data/tiles.jpg --ann sample_data/corners.json --seeds 20 --close 0 --csv out/course/eval_no_close.csv --overlays out/course/eval_no_close
+# cmd024
+python docscan.py scan sample_data/corner.jpg --method auto --canny 50,150 -o out/course/scans/corner_scan.png
+# cmd025
+python docscan.py binarize out/course/scans/corner_scan.png --method all --gt sample_data/page-gt.png -o out/course/scans/corner_bw.png
+# cmd026
+python docscan.py scan sample_data/desk.jpg --method auto --canny 50,150 -o out/course/scans/desk_scan.png
+# cmd027
+python docscan.py binarize out/course/scans/desk_scan.png --method all --gt sample_data/page-gt.png -o out/course/scans/desk_bw.png
+# cmd028
+python docscan.py scan sample_data/plain.jpg --method auto --canny 50,150 -o out/course/scans/plain_scan.png
+# cmd029
+python docscan.py binarize out/course/scans/plain_scan.png --method all --gt sample_data/page-gt.png -o out/course/scans/plain_bw.png
+# cmd030
+python docscan.py scan sample_data/tiles.jpg --method auto --canny 50,150 -o out/course/scans/tiles_scan.png
+# cmd031
+python docscan.py binarize out/course/scans/tiles_scan.png --method all --gt sample_data/page-gt.png -o out/course/scans/tiles_bw.png
+# cmd032
+python docscan.py binarize sample_data/L3/text-lamp.png --gt sample_data/L3/text-gt.png -o out/course/lamp.png
+# cmd033
+python docscan.py video --source sample_data/clip.mp4 --method contour --canny 50,150 --no-window --seconds 0
+# cmd034
+python docscan.py video --source sample_data/clip.mp4 --method hough --canny 50,150 --no-window --seconds 0
+# cmd035
+python docscan.py video --source sample_data/clip.mp4 --method auto --canny 50,150 --no-window --seconds 0

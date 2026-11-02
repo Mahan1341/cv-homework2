@@ -1,0 +1,189 @@
+# Выполнять из папки, содержащей docscan.py.
+# python — интерпретатор активированного окружения.
+
+# cmd001
+python docscan.py noise data/01.jpg
+# cmd002
+python docscan.py noise data/02.jpg
+# cmd003
+python docscan.py noise data/03.jpg
+# cmd004
+python docscan.py noise data/04.jpg
+# cmd005
+python docscan.py noise data/05.jpg
+# cmd006
+python docscan.py noise data/06.jpg
+# cmd007
+python docscan.py noise data/07.jpg
+# cmd008
+python docscan.py noise data/08.jpg
+# cmd009
+python docscan.py noise data/09.jpg
+# cmd010
+python docscan.py noise data/10.jpg
+# cmd011
+python docscan.py noise data/11.jpg
+# cmd012
+python docscan.py noise data/12.jpg
+# cmd013
+python docscan.py noise data/13.jpg
+# cmd014
+python docscan.py noise data/14.jpg
+# cmd015
+python docscan.py noise data/15.jpg
+# cmd016
+python docscan.py noise data/16.jpg
+# cmd017
+python docscan.py noise data/17.jpg
+# cmd018
+python docscan.py noise data/18.jpg
+# cmd019
+python docscan.py noise data/01.jpg --add-sigma 5
+# cmd020
+python docscan.py noise data/01.jpg --add-sigma 10
+# cmd021
+python docscan.py noise data/01.jpg --add-sigma 25
+# cmd022
+python docscan.py edges data/01.jpg -o out/personal/edges/01_median.png
+# cmd023
+python docscan.py edges data/01.jpg --canny 50,150 -o out/personal/edges/01_fixed.png
+# cmd024
+python docscan.py edges data/01.jpg --close 0 -o out/personal/edges/01_no_close.png
+# cmd025
+python docscan.py edges data/02.jpg -o out/personal/edges/02_median.png
+# cmd026
+python docscan.py edges data/02.jpg --canny 50,150 -o out/personal/edges/02_fixed.png
+# cmd027
+python docscan.py edges data/02.jpg --close 0 -o out/personal/edges/02_no_close.png
+# cmd028
+python docscan.py edges data/03.jpg -o out/personal/edges/03_median.png
+# cmd029
+python docscan.py edges data/03.jpg --canny 50,150 -o out/personal/edges/03_fixed.png
+# cmd030
+python docscan.py edges data/03.jpg --close 0 -o out/personal/edges/03_no_close.png
+# cmd031
+python docscan.py edges data/04.jpg -o out/personal/edges/04_median.png
+# cmd032
+python docscan.py edges data/04.jpg --canny 50,150 -o out/personal/edges/04_fixed.png
+# cmd033
+python docscan.py edges data/04.jpg --close 0 -o out/personal/edges/04_no_close.png
+# cmd034
+python docscan.py edges data/05.jpg -o out/personal/edges/05_median.png
+# cmd035
+python docscan.py edges data/05.jpg --canny 50,150 -o out/personal/edges/05_fixed.png
+# cmd036
+python docscan.py edges data/05.jpg --close 0 -o out/personal/edges/05_no_close.png
+# cmd037
+python docscan.py edges data/06.jpg -o out/personal/edges/06_median.png
+# cmd038
+python docscan.py edges data/06.jpg --canny 50,150 -o out/personal/edges/06_fixed.png
+# cmd039
+python docscan.py edges data/06.jpg --close 0 -o out/personal/edges/06_no_close.png
+# cmd040
+python docscan.py edges data/07.jpg -o out/personal/edges/07_median.png
+# cmd041
+python docscan.py edges data/07.jpg --canny 50,150 -o out/personal/edges/07_fixed.png
+# cmd042
+python docscan.py edges data/07.jpg --close 0 -o out/personal/edges/07_no_close.png
+# cmd043
+python docscan.py edges data/08.jpg -o out/personal/edges/08_median.png
+# cmd044
+python docscan.py edges data/08.jpg --canny 50,150 -o out/personal/edges/08_fixed.png
+# cmd045
+python docscan.py edges data/08.jpg --close 0 -o out/personal/edges/08_no_close.png
+# cmd046
+python docscan.py edges data/09.jpg -o out/personal/edges/09_median.png
+# cmd047
+python docscan.py edges data/09.jpg --canny 50,150 -o out/personal/edges/09_fixed.png
+# cmd048
+python docscan.py edges data/09.jpg --close 0 -o out/personal/edges/09_no_close.png
+# cmd049
+python docscan.py edges data/10.jpg -o out/personal/edges/10_median.png
+# cmd050
+python docscan.py edges data/10.jpg --canny 50,150 -o out/personal/edges/10_fixed.png
+# cmd051
+python docscan.py edges data/10.jpg --close 0 -o out/personal/edges/10_no_close.png
+# cmd052
+python docscan.py edges data/11.jpg -o out/personal/edges/11_median.png
+# cmd053
+python docscan.py edges data/11.jpg --canny 50,150 -o out/personal/edges/11_fixed.png
+# cmd054
+python docscan.py edges data/11.jpg --close 0 -o out/personal/edges/11_no_close.png
+# cmd055
+python docscan.py edges data/12.jpg -o out/personal/edges/12_median.png
+# cmd056
+python docscan.py edges data/12.jpg --canny 50,150 -o out/personal/edges/12_fixed.png
+# cmd057
+python docscan.py edges data/12.jpg --close 0 -o out/personal/edges/12_no_close.png
+# cmd058
+python docscan.py edges data/13.jpg -o out/personal/edges/13_median.png
+# cmd059
+python docscan.py edges data/13.jpg --canny 50,150 -o out/personal/edges/13_fixed.png
+# cmd060
+python docscan.py edges data/13.jpg --close 0 -o out/personal/edges/13_no_close.png
+# cmd061
+python docscan.py edges data/14.jpg -o out/personal/edges/14_median.png
+# cmd062
+python docscan.py edges data/14.jpg --canny 50,150 -o out/personal/edges/14_fixed.png
+# cmd063
+python docscan.py edges data/14.jpg --close 0 -o out/personal/edges/14_no_close.png
+# cmd064
+python docscan.py edges data/15.jpg -o out/personal/edges/15_median.png
+# cmd065
+python docscan.py edges data/15.jpg --canny 50,150 -o out/personal/edges/15_fixed.png
+# cmd066
+python docscan.py edges data/15.jpg --close 0 -o out/personal/edges/15_no_close.png
+# cmd067
+python docscan.py eval data/01.jpg data/02.jpg data/03.jpg data/04.jpg data/05.jpg data/06.jpg data/07.jpg data/08.jpg data/09.jpg data/10.jpg data/11.jpg data/12.jpg data/13.jpg data/14.jpg data/15.jpg data/16.jpg data/17.jpg data/18.jpg --ann data/corners.json --seeds 20 --csv out/personal/eval_median.csv --overlays out/personal/eval_median
+# cmd068
+python docscan.py eval data/01.jpg data/02.jpg data/03.jpg data/04.jpg data/05.jpg data/06.jpg data/07.jpg data/08.jpg data/09.jpg data/10.jpg data/11.jpg data/12.jpg data/13.jpg data/14.jpg data/15.jpg data/16.jpg data/17.jpg data/18.jpg --ann data/corners.json --seeds 20 --canny 50,150 --csv out/personal/eval_fixed.csv --overlays out/personal/eval_fixed
+# cmd069
+python docscan.py eval data/01.jpg data/02.jpg data/03.jpg data/04.jpg data/05.jpg data/06.jpg data/07.jpg data/08.jpg data/09.jpg data/10.jpg data/11.jpg data/12.jpg data/13.jpg data/14.jpg data/15.jpg data/16.jpg data/17.jpg data/18.jpg --ann data/corners.json --seeds 20 --close 0 --csv out/personal/eval_no_close.csv --overlays out/personal/eval_no_close
+# cmd070
+python docscan.py scan data/01.jpg --method auto --canny 50,150 -o out/personal/scans/01_scan.png
+# cmd071
+python docscan.py binarize out/personal/scans/01_scan.png --method all -o out/personal/scans/01_bw.png
+# cmd072
+python docscan.py scan data/02.jpg --method auto --canny 50,150 -o out/personal/scans/02_scan.png
+# cmd073
+python docscan.py binarize out/personal/scans/02_scan.png --method all -o out/personal/scans/02_bw.png
+# cmd074
+python docscan.py scan data/03.jpg --method auto --canny 50,150 -o out/personal/scans/03_scan.png
+# cmd075
+python docscan.py binarize out/personal/scans/03_scan.png --method all -o out/personal/scans/03_bw.png
+# cmd076
+python docscan.py scan data/04.jpg --method auto --canny 50,150 -o out/personal/scans/04_scan.png
+# cmd077
+python docscan.py scan data/05.jpg --method auto --canny 50,150 -o out/personal/scans/05_scan.png
+# cmd078
+python docscan.py binarize out/personal/scans/05_scan.png --method all -o out/personal/scans/05_bw.png
+# cmd079
+python docscan.py scan data/06.jpg --method auto --canny 50,150 -o out/personal/scans/06_scan.png
+# cmd080
+python docscan.py scan data/07.jpg --method auto --canny 50,150 -o out/personal/scans/07_scan.png
+# cmd081
+python docscan.py scan data/08.jpg --method auto --canny 50,150 -o out/personal/scans/08_scan.png
+# cmd082
+python docscan.py scan data/09.jpg --method auto --canny 50,150 -o out/personal/scans/09_scan.png
+# cmd083
+python docscan.py scan data/10.jpg --method auto --canny 50,150 -o out/personal/scans/10_scan.png
+# cmd084
+python docscan.py scan data/11.jpg --method auto --canny 50,150 -o out/personal/scans/11_scan.png
+# cmd085
+python docscan.py binarize out/personal/scans/11_scan.png --method all -o out/personal/scans/11_bw.png
+# cmd086
+python docscan.py scan data/12.jpg --method auto --canny 50,150 -o out/personal/scans/12_scan.png
+# cmd087
+python docscan.py scan data/13.jpg --method auto --canny 50,150 -o out/personal/scans/13_scan.png
+# cmd088
+python docscan.py binarize out/personal/scans/13_scan.png --method all -o out/personal/scans/13_bw.png
+# cmd089
+python docscan.py scan data/14.jpg --method auto --canny 50,150 -o out/personal/scans/14_scan.png
+# cmd090
+python docscan.py binarize out/personal/scans/14_scan.png --method all -o out/personal/scans/14_bw.png
+# cmd091
+python docscan.py scan data/15.jpg --method auto --canny 50,150 -o out/personal/scans/15_scan.png
+# cmd092
+python docscan.py binarize out/personal/scans/15_scan.png --method all -o out/personal/scans/15_bw.png
+# cmd093
+python docscan.py binarize sample_data/L3/text-lamp.png --gt sample_data/L3/text-gt.png -o out/personal/lamp.png

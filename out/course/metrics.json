@@ -1,0 +1,1700 @@
+{
+  "started_utc": "2026-11-01T13:39:56.814667+00:00",
+  "dataset_kind": "нарисованные кадры курса (sample_data)",
+  "course_data": true,
+  "personal": false,
+  "data": "sample_data",
+  "annotations": "sample_data/corners.json",
+  "seeds": 20,
+  "images": {
+    "corner.jpg": {
+      "width": 1280,
+      "height": 960,
+      "bytes": 320526
+    },
+    "desk.jpg": {
+      "width": 1280,
+      "height": 960,
+      "bytes": 249069
+    },
+    "nosheet.jpg": {
+      "width": 1280,
+      "height": 960,
+      "bytes": 286043
+    },
+    "plain.jpg": {
+      "width": 1280,
+      "height": 960,
+      "bytes": 182135
+    },
+    "tiles.jpg": {
+      "width": 1280,
+      "height": 960,
+      "bytes": 280310
+    }
+  },
+  "environment": {
+    "label": "сервер проверки; не ноутбук пользователя",
+    "python": "3.12.14",
+    "opencv": "4.14.0",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "logical_cpus": 9
+  },
+  "notes": [],
+  "commands": [
+    {
+      "id": "cmd001",
+      "section": "noise",
+      "file": "corner.jpg",
+      "setting": "default",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "noise",
+        "sample_data/corner.jpg"
+      ],
+      "command": "python docscan.py noise sample_data/corner.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 480], \"noise_sigma\": 2.22}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            480
+          ],
+          "noise_sigma": 2.22
+        }
+      ]
+    },
+    {
+      "id": "cmd002",
+      "section": "noise",
+      "file": "desk.jpg",
+      "setting": "default",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "noise",
+        "sample_data/desk.jpg"
+      ],
+      "command": "python docscan.py noise sample_data/desk.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 480], \"noise_sigma\": 0.99}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            480
+          ],
+          "noise_sigma": 0.99
+        }
+      ]
+    },
+    {
+      "id": "cmd003",
+      "section": "noise",
+      "file": "nosheet.jpg",
+      "setting": "default",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "noise",
+        "sample_data/nosheet.jpg"
+      ],
+      "command": "python docscan.py noise sample_data/nosheet.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 480], \"noise_sigma\": 1.73}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            480
+          ],
+          "noise_sigma": 1.73
+        }
+      ]
+    },
+    {
+      "id": "cmd004",
+      "section": "noise",
+      "file": "plain.jpg",
+      "setting": "default",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "noise",
+        "sample_data/plain.jpg"
+      ],
+      "command": "python docscan.py noise sample_data/plain.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 480], \"noise_sigma\": 0.99}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            480
+          ],
+          "noise_sigma": 0.99
+        }
+      ]
+    },
+    {
+      "id": "cmd005",
+      "section": "noise",
+      "file": "tiles.jpg",
+      "setting": "default",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "noise",
+        "sample_data/tiles.jpg"
+      ],
+      "command": "python docscan.py noise sample_data/tiles.jpg",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 480], \"noise_sigma\": 1.73}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            480
+          ],
+          "noise_sigma": 1.73
+        }
+      ]
+    },
+    {
+      "id": "cmd006",
+      "section": "added_noise",
+      "file": "desk.jpg",
+      "setting": "5",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "noise",
+        "sample_data/desk.jpg",
+        "--add-sigma",
+        "5"
+      ],
+      "command": "python docscan.py noise sample_data/desk.jpg --add-sigma 5",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 480], \"noise_sigma\": 0.99, \"added_sigma\": 5.0, \"noise_sigma_noisy\": 5.44, \"filter_sigma\": 1.53, \"noise_after_measured\": 0.92, \"noise_after_predicted\": 0.92}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            480
+          ],
+          "noise_sigma": 0.99,
+          "added_sigma": 5.0,
+          "noise_sigma_noisy": 5.44,
+          "filter_sigma": 1.53,
+          "noise_after_measured": 0.92,
+          "noise_after_predicted": 0.92
+        }
+      ]
+    },
+    {
+      "id": "cmd007",
+      "section": "added_noise",
+      "file": "desk.jpg",
+      "setting": "10",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "noise",
+        "sample_data/desk.jpg",
+        "--add-sigma",
+        "10"
+      ],
+      "command": "python docscan.py noise sample_data/desk.jpg --add-sigma 10",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 480], \"noise_sigma\": 0.99, \"added_sigma\": 10.0, \"noise_sigma_noisy\": 10.38, \"filter_sigma\": 2.93, \"noise_after_measured\": 0.96, \"noise_after_predicted\": 0.96}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            480
+          ],
+          "noise_sigma": 0.99,
+          "added_sigma": 10.0,
+          "noise_sigma_noisy": 10.38,
+          "filter_sigma": 2.93,
+          "noise_after_measured": 0.96,
+          "noise_after_predicted": 0.96
+        }
+      ]
+    },
+    {
+      "id": "cmd008",
+      "section": "added_noise",
+      "file": "desk.jpg",
+      "setting": "25",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "noise",
+        "sample_data/desk.jpg",
+        "--add-sigma",
+        "25"
+      ],
+      "command": "python docscan.py noise sample_data/desk.jpg --add-sigma 25",
+      "returncode": 0,
+      "stdout": "{\"command\": \"noise\", \"work_size\": [640, 480], \"noise_sigma\": 0.99, \"added_sigma\": 25.0, \"noise_sigma_noisy\": 24.71, \"filter_sigma\": 3.0, \"noise_after_measured\": 2.34, \"noise_after_predicted\": 2.35}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "noise",
+          "work_size": [
+            640,
+            480
+          ],
+          "noise_sigma": 0.99,
+          "added_sigma": 25.0,
+          "noise_sigma_noisy": 24.71,
+          "filter_sigma": 3.0,
+          "noise_after_measured": 2.34,
+          "noise_after_predicted": 2.35
+        }
+      ]
+    },
+    {
+      "id": "cmd009",
+      "section": "edges",
+      "file": "corner.jpg",
+      "setting": "median",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/corner.jpg",
+        "-o",
+        "out/course/edges/corner_median.png"
+      ],
+      "command": "python docscan.py edges sample_data/corner.jpg -o out/course/edges/corner_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 2.22, \"filter_sigma\": 1.0, \"median\": 117.0, \"canny\": [78, 155], \"edge_pct\": 0.43, \"segments\": 6, \"out\": \"out/course/edges/corner_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 2.22,
+          "filter_sigma": 1.0,
+          "median": 117.0,
+          "canny": [
+            78,
+            155
+          ],
+          "edge_pct": 0.43,
+          "segments": 6,
+          "out": "out/course/edges/corner_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd010",
+      "section": "edges",
+      "file": "corner.jpg",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/corner.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/course/edges/corner_fixed.png"
+      ],
+      "command": "python docscan.py edges sample_data/corner.jpg --canny 50,150 -o out/course/edges/corner_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 2.22, \"filter_sigma\": 1.0, \"median\": 117.0, \"canny\": [50, 150], \"edge_pct\": 0.43, \"segments\": 6, \"out\": \"out/course/edges/corner_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 2.22,
+          "filter_sigma": 1.0,
+          "median": 117.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.43,
+          "segments": 6,
+          "out": "out/course/edges/corner_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd011",
+      "section": "edges",
+      "file": "corner.jpg",
+      "setting": "no_close",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/corner.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/course/edges/corner_no_close.png"
+      ],
+      "command": "python docscan.py edges sample_data/corner.jpg --close 0 -o out/course/edges/corner_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 2.22, \"filter_sigma\": 1.0, \"median\": 111.0, \"canny\": [74, 147], \"edge_pct\": 1.56, \"segments\": 27, \"out\": \"out/course/edges/corner_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 2.22,
+          "filter_sigma": 1.0,
+          "median": 111.0,
+          "canny": [
+            74,
+            147
+          ],
+          "edge_pct": 1.56,
+          "segments": 27,
+          "out": "out/course/edges/corner_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd012",
+      "section": "edges",
+      "file": "desk.jpg",
+      "setting": "median",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/desk.jpg",
+        "-o",
+        "out/course/edges/desk_median.png"
+      ],
+      "command": "python docscan.py edges sample_data/desk.jpg -o out/course/edges/desk_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.99, \"filter_sigma\": 1.0, \"median\": 106.0, \"canny\": [71, 140], \"edge_pct\": 0.39, \"segments\": 9, \"out\": \"out/course/edges/desk_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.99,
+          "filter_sigma": 1.0,
+          "median": 106.0,
+          "canny": [
+            71,
+            140
+          ],
+          "edge_pct": 0.39,
+          "segments": 9,
+          "out": "out/course/edges/desk_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd013",
+      "section": "edges",
+      "file": "desk.jpg",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/desk.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/course/edges/desk_fixed.png"
+      ],
+      "command": "python docscan.py edges sample_data/desk.jpg --canny 50,150 -o out/course/edges/desk_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.99, \"filter_sigma\": 1.0, \"median\": 106.0, \"canny\": [50, 150], \"edge_pct\": 0.39, \"segments\": 9, \"out\": \"out/course/edges/desk_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.99,
+          "filter_sigma": 1.0,
+          "median": 106.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.39,
+          "segments": 9,
+          "out": "out/course/edges/desk_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd014",
+      "section": "edges",
+      "file": "desk.jpg",
+      "setting": "no_close",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/desk.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/course/edges/desk_no_close.png"
+      ],
+      "command": "python docscan.py edges sample_data/desk.jpg --close 0 -o out/course/edges/desk_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.99, \"filter_sigma\": 1.0, \"median\": 101.0, \"canny\": [67, 134], \"edge_pct\": 3.92, \"segments\": 100, \"out\": \"out/course/edges/desk_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.99,
+          "filter_sigma": 1.0,
+          "median": 101.0,
+          "canny": [
+            67,
+            134
+          ],
+          "edge_pct": 3.92,
+          "segments": 100,
+          "out": "out/course/edges/desk_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd015",
+      "section": "edges",
+      "file": "plain.jpg",
+      "setting": "median",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/plain.jpg",
+        "-o",
+        "out/course/edges/plain_median.png"
+      ],
+      "command": "python docscan.py edges sample_data/plain.jpg -o out/course/edges/plain_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.99, \"filter_sigma\": 1.0, \"median\": 191.0, \"canny\": [127, 254], \"edge_pct\": 0.0, \"segments\": 0, \"out\": \"out/course/edges/plain_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.99,
+          "filter_sigma": 1.0,
+          "median": 191.0,
+          "canny": [
+            127,
+            254
+          ],
+          "edge_pct": 0.0,
+          "segments": 0,
+          "out": "out/course/edges/plain_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd016",
+      "section": "edges",
+      "file": "plain.jpg",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/plain.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/course/edges/plain_fixed.png"
+      ],
+      "command": "python docscan.py edges sample_data/plain.jpg --canny 50,150 -o out/course/edges/plain_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 0.99, \"filter_sigma\": 1.0, \"median\": 191.0, \"canny\": [50, 150], \"edge_pct\": 0.39, \"segments\": 8, \"out\": \"out/course/edges/plain_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 0.99,
+          "filter_sigma": 1.0,
+          "median": 191.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.39,
+          "segments": 8,
+          "out": "out/course/edges/plain_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd017",
+      "section": "edges",
+      "file": "plain.jpg",
+      "setting": "no_close",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/plain.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/course/edges/plain_no_close.png"
+      ],
+      "command": "python docscan.py edges sample_data/plain.jpg --close 0 -o out/course/edges/plain_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 0.99, \"filter_sigma\": 1.0, \"median\": 191.0, \"canny\": [127, 254], \"edge_pct\": 0.11, \"segments\": 6, \"out\": \"out/course/edges/plain_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 0.99,
+          "filter_sigma": 1.0,
+          "median": 191.0,
+          "canny": [
+            127,
+            254
+          ],
+          "edge_pct": 0.11,
+          "segments": 6,
+          "out": "out/course/edges/plain_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd018",
+      "section": "edges",
+      "file": "tiles.jpg",
+      "setting": "median",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/tiles.jpg",
+        "-o",
+        "out/course/edges/tiles_median.png"
+      ],
+      "command": "python docscan.py edges sample_data/tiles.jpg -o out/course/edges/tiles_median.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 1.73, \"filter_sigma\": 1.0, \"median\": 139.0, \"canny\": [93, 184], \"edge_pct\": 1.46, \"segments\": 57, \"out\": \"out/course/edges/tiles_median.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 1.73,
+          "filter_sigma": 1.0,
+          "median": 139.0,
+          "canny": [
+            93,
+            184
+          ],
+          "edge_pct": 1.46,
+          "segments": 57,
+          "out": "out/course/edges/tiles_median.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd019",
+      "section": "edges",
+      "file": "tiles.jpg",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/tiles.jpg",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/course/edges/tiles_fixed.png"
+      ],
+      "command": "python docscan.py edges sample_data/tiles.jpg --canny 50,150 -o out/course/edges/tiles_fixed.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 9, \"noise_sigma\": 1.73, \"filter_sigma\": 1.0, \"median\": 139.0, \"canny\": [50, 150], \"edge_pct\": 2.04, \"segments\": 79, \"out\": \"out/course/edges/tiles_fixed.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 9,
+          "noise_sigma": 1.73,
+          "filter_sigma": 1.0,
+          "median": 139.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 2.04,
+          "segments": 79,
+          "out": "out/course/edges/tiles_fixed.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd020",
+      "section": "edges",
+      "file": "tiles.jpg",
+      "setting": "no_close",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "edges",
+        "sample_data/tiles.jpg",
+        "--close",
+        "0",
+        "-o",
+        "out/course/edges/tiles_no_close.png"
+      ],
+      "command": "python docscan.py edges sample_data/tiles.jpg --close 0 -o out/course/edges/tiles_no_close.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"edges\", \"close\": 0, \"noise_sigma\": 1.73, \"filter_sigma\": 1.0, \"median\": 138.0, \"canny\": [92, 183], \"edge_pct\": 2.35, \"segments\": 88, \"out\": \"out/course/edges/tiles_no_close.png\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "edges",
+          "close": 0,
+          "noise_sigma": 1.73,
+          "filter_sigma": 1.0,
+          "median": 138.0,
+          "canny": [
+            92,
+            183
+          ],
+          "edge_pct": 2.35,
+          "segments": 88,
+          "out": "out/course/edges/tiles_no_close.png"
+        }
+      ]
+    },
+    {
+      "id": "cmd021",
+      "section": "eval",
+      "file": "sample_data",
+      "setting": "median",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "eval",
+        "sample_data/corner.jpg",
+        "sample_data/desk.jpg",
+        "sample_data/nosheet.jpg",
+        "sample_data/plain.jpg",
+        "sample_data/tiles.jpg",
+        "--ann",
+        "sample_data/corners.json",
+        "--seeds",
+        "20",
+        "--csv",
+        "out/course/eval_median.csv",
+        "--overlays",
+        "out/course/eval_median"
+      ],
+      "command": "python docscan.py eval sample_data/corner.jpg sample_data/desk.jpg sample_data/nosheet.jpg sample_data/plain.jpg sample_data/tiles.jpg --ann sample_data/corners.json --seeds 20 --csv out/course/eval_median.csv --overlays out/course/eval_median",
+      "returncode": 0,
+      "stdout": "{\"file\": \"corner.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 26.2, \"hough_found\": true, \"hough_iou\": 0.995, \"hough_ms\": 57.1, \"auto_found\": true, \"auto_iou\": 0.995, \"auto_ms\": 30.7, \"auto_path\": \"hough\", \"hough_ok_of_20\": 20}\n{\"file\": \"desk.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.994, \"contour_ms\": 7.4, \"hough_found\": true, \"hough_iou\": 0.998, \"hough_ms\": 31.6, \"auto_found\": true, \"auto_iou\": 0.994, \"auto_ms\": 7.5, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"nosheet.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 8.0, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 32.6, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 33.6, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"file\": \"plain.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.0, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 6.3, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 6.2, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"tiles.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.98, \"contour_ms\": 7.7, \"hough_found\": true, \"hough_iou\": 0.996, \"hough_ms\": 34.1, \"auto_found\": true, \"auto_iou\": 0.98, \"auto_ms\": 7.3, \"auto_path\": \"contour\", \"hough_ok_of_20\": 18}\n{\"command\": \"eval\", \"n\": 5, \"iou_ok\": 0.9, \"canny\": \"auto\", \"summary\": {\"contour\": {\"sheets\": 4, \"found_iou_ok\": 2, \"mean_iou\": 0.493, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 11.1}, \"hough\": {\"sheets\": 4, \"found_iou_ok\": 3, \"mean_iou\": 0.747, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 32.3}, \"auto\": {\"sheets\": 4, \"found_iou_ok\": 3, \"mean_iou\": 0.742, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 17.1}}, \"csv\": \"out/course/eval_median.csv\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "file": "corner.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 26.2,
+          "hough_found": true,
+          "hough_iou": 0.995,
+          "hough_ms": 57.1,
+          "auto_found": true,
+          "auto_iou": 0.995,
+          "auto_ms": 30.7,
+          "auto_path": "hough",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "desk.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.994,
+          "contour_ms": 7.4,
+          "hough_found": true,
+          "hough_iou": 0.998,
+          "hough_ms": 31.6,
+          "auto_found": true,
+          "auto_iou": 0.994,
+          "auto_ms": 7.5,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "nosheet.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 8.0,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 32.6,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 33.6,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "plain.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.0,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 6.3,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 6.2,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "tiles.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.98,
+          "contour_ms": 7.7,
+          "hough_found": true,
+          "hough_iou": 0.996,
+          "hough_ms": 34.1,
+          "auto_found": true,
+          "auto_iou": 0.98,
+          "auto_ms": 7.3,
+          "auto_path": "contour",
+          "hough_ok_of_20": 18
+        },
+        {
+          "command": "eval",
+          "n": 5,
+          "iou_ok": 0.9,
+          "canny": "auto",
+          "summary": {
+            "contour": {
+              "sheets": 4,
+              "found_iou_ok": 2,
+              "mean_iou": 0.493,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 11.1
+            },
+            "hough": {
+              "sheets": 4,
+              "found_iou_ok": 3,
+              "mean_iou": 0.747,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 32.3
+            },
+            "auto": {
+              "sheets": 4,
+              "found_iou_ok": 3,
+              "mean_iou": 0.742,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 17.1
+            }
+          },
+          "csv": "out/course/eval_median.csv"
+        }
+      ]
+    },
+    {
+      "id": "cmd022",
+      "section": "eval",
+      "file": "sample_data",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "eval",
+        "sample_data/corner.jpg",
+        "sample_data/desk.jpg",
+        "sample_data/nosheet.jpg",
+        "sample_data/plain.jpg",
+        "sample_data/tiles.jpg",
+        "--ann",
+        "sample_data/corners.json",
+        "--seeds",
+        "20",
+        "--canny",
+        "50,150",
+        "--csv",
+        "out/course/eval_fixed.csv",
+        "--overlays",
+        "out/course/eval_fixed"
+      ],
+      "command": "python docscan.py eval sample_data/corner.jpg sample_data/desk.jpg sample_data/nosheet.jpg sample_data/plain.jpg sample_data/tiles.jpg --ann sample_data/corners.json --seeds 20 --canny 50,150 --csv out/course/eval_fixed.csv --overlays out/course/eval_fixed",
+      "returncode": 0,
+      "stdout": "{\"file\": \"corner.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 30.8, \"hough_found\": true, \"hough_iou\": 0.995, \"hough_ms\": 54.5, \"auto_found\": true, \"auto_iou\": 0.995, \"auto_ms\": 31.1, \"auto_path\": \"hough\", \"hough_ok_of_20\": 20}\n{\"file\": \"desk.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.994, \"contour_ms\": 8.0, \"hough_found\": true, \"hough_iou\": 0.998, \"hough_ms\": 30.8, \"auto_found\": true, \"auto_iou\": 0.994, \"auto_ms\": 7.5, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"nosheet.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 7.6, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 32.7, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 34.5, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"file\": \"plain.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.989, \"contour_ms\": 6.6, \"hough_found\": true, \"hough_iou\": 0.994, \"hough_ms\": 31.1, \"auto_found\": true, \"auto_iou\": 0.989, \"auto_ms\": 6.7, \"auto_path\": \"contour\", \"hough_ok_of_20\": 20}\n{\"file\": \"tiles.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.98, \"contour_ms\": 13.2, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 39.1, \"auto_found\": true, \"auto_iou\": 0.98, \"auto_ms\": 8.9, \"auto_path\": \"contour\", \"hough_ok_of_20\": 4}\n{\"command\": \"eval\", \"n\": 5, \"iou_ok\": 0.9, \"canny\": [50, 150], \"summary\": {\"contour\": {\"sheets\": 4, \"found_iou_ok\": 3, \"mean_iou\": 0.741, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 13.2}, \"hough\": {\"sheets\": 4, \"found_iou_ok\": 3, \"mean_iou\": 0.747, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 37.6}, \"auto\": {\"sheets\": 4, \"found_iou_ok\": 4, \"mean_iou\": 0.989, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 17.7}}, \"csv\": \"out/course/eval_fixed.csv\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "file": "corner.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 30.8,
+          "hough_found": true,
+          "hough_iou": 0.995,
+          "hough_ms": 54.5,
+          "auto_found": true,
+          "auto_iou": 0.995,
+          "auto_ms": 31.1,
+          "auto_path": "hough",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "desk.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.994,
+          "contour_ms": 8.0,
+          "hough_found": true,
+          "hough_iou": 0.998,
+          "hough_ms": 30.8,
+          "auto_found": true,
+          "auto_iou": 0.994,
+          "auto_ms": 7.5,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "nosheet.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 7.6,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 32.7,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 34.5,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "plain.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.989,
+          "contour_ms": 6.6,
+          "hough_found": true,
+          "hough_iou": 0.994,
+          "hough_ms": 31.1,
+          "auto_found": true,
+          "auto_iou": 0.989,
+          "auto_ms": 6.7,
+          "auto_path": "contour",
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "tiles.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.98,
+          "contour_ms": 13.2,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 39.1,
+          "auto_found": true,
+          "auto_iou": 0.98,
+          "auto_ms": 8.9,
+          "auto_path": "contour",
+          "hough_ok_of_20": 4
+        },
+        {
+          "command": "eval",
+          "n": 5,
+          "iou_ok": 0.9,
+          "canny": [
+            50,
+            150
+          ],
+          "summary": {
+            "contour": {
+              "sheets": 4,
+              "found_iou_ok": 3,
+              "mean_iou": 0.741,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 13.2
+            },
+            "hough": {
+              "sheets": 4,
+              "found_iou_ok": 3,
+              "mean_iou": 0.747,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 37.6
+            },
+            "auto": {
+              "sheets": 4,
+              "found_iou_ok": 4,
+              "mean_iou": 0.989,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 17.7
+            }
+          },
+          "csv": "out/course/eval_fixed.csv"
+        }
+      ]
+    },
+    {
+      "id": "cmd023",
+      "section": "eval",
+      "file": "sample_data",
+      "setting": "no_close",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "eval",
+        "sample_data/corner.jpg",
+        "sample_data/desk.jpg",
+        "sample_data/nosheet.jpg",
+        "sample_data/plain.jpg",
+        "sample_data/tiles.jpg",
+        "--ann",
+        "sample_data/corners.json",
+        "--seeds",
+        "20",
+        "--close",
+        "0",
+        "--csv",
+        "out/course/eval_no_close.csv",
+        "--overlays",
+        "out/course/eval_no_close"
+      ],
+      "command": "python docscan.py eval sample_data/corner.jpg sample_data/desk.jpg sample_data/nosheet.jpg sample_data/plain.jpg sample_data/tiles.jpg --ann sample_data/corners.json --seeds 20 --close 0 --csv out/course/eval_no_close.csv --overlays out/course/eval_no_close",
+      "returncode": 0,
+      "stdout": "{\"file\": \"corner.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 35.9, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 54.1, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 33.3, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"desk.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.989, \"contour_ms\": 9.0, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 44.0, \"auto_found\": true, \"auto_iou\": 0.989, \"auto_ms\": 8.0, \"auto_path\": \"contour\", \"hough_ok_of_20\": 0}\n{\"file\": \"nosheet.jpg\", \"sheet\": false, \"contour_found\": false, \"contour_iou\": null, \"contour_ms\": 7.5, \"hough_found\": false, \"hough_iou\": null, \"hough_ms\": 47.2, \"auto_found\": false, \"auto_iou\": null, \"auto_ms\": 44.5, \"auto_path\": null, \"hough_ok_of_20\": 20}\n{\"file\": \"plain.jpg\", \"sheet\": true, \"contour_found\": false, \"contour_iou\": 0.0, \"contour_ms\": 6.3, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 13.7, \"auto_found\": false, \"auto_iou\": 0.0, \"auto_ms\": 13.4, \"auto_path\": null, \"hough_ok_of_20\": 0}\n{\"file\": \"tiles.jpg\", \"sheet\": true, \"contour_found\": true, \"contour_iou\": 0.982, \"contour_ms\": 7.7, \"hough_found\": false, \"hough_iou\": 0.0, \"hough_ms\": 37.4, \"auto_found\": true, \"auto_iou\": 0.982, \"auto_ms\": 7.3, \"auto_path\": \"contour\", \"hough_ok_of_20\": 8}\n{\"command\": \"eval\", \"n\": 5, \"iou_ok\": 0.9, \"canny\": \"auto\", \"summary\": {\"contour\": {\"sheets\": 4, \"found_iou_ok\": 2, \"mean_iou\": 0.493, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 13.3}, \"hough\": {\"sheets\": 4, \"found_iou_ok\": 0, \"mean_iou\": 0.0, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 39.3}, \"auto\": {\"sheets\": 4, \"found_iou_ok\": 2, \"mean_iou\": 0.493, \"no_sheet\": 1, \"rejected\": 1, \"mean_ms\": 21.3}}, \"csv\": \"out/course/eval_no_close.csv\"}\n",
+      "stderr": "",
+      "json": [
+        {
+          "file": "corner.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 35.9,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 54.1,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 33.3,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "desk.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.989,
+          "contour_ms": 9.0,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 44.0,
+          "auto_found": true,
+          "auto_iou": 0.989,
+          "auto_ms": 8.0,
+          "auto_path": "contour",
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "nosheet.jpg",
+          "sheet": false,
+          "contour_found": false,
+          "contour_iou": null,
+          "contour_ms": 7.5,
+          "hough_found": false,
+          "hough_iou": null,
+          "hough_ms": 47.2,
+          "auto_found": false,
+          "auto_iou": null,
+          "auto_ms": 44.5,
+          "auto_path": null,
+          "hough_ok_of_20": 20
+        },
+        {
+          "file": "plain.jpg",
+          "sheet": true,
+          "contour_found": false,
+          "contour_iou": 0.0,
+          "contour_ms": 6.3,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 13.7,
+          "auto_found": false,
+          "auto_iou": 0.0,
+          "auto_ms": 13.4,
+          "auto_path": null,
+          "hough_ok_of_20": 0
+        },
+        {
+          "file": "tiles.jpg",
+          "sheet": true,
+          "contour_found": true,
+          "contour_iou": 0.982,
+          "contour_ms": 7.7,
+          "hough_found": false,
+          "hough_iou": 0.0,
+          "hough_ms": 37.4,
+          "auto_found": true,
+          "auto_iou": 0.982,
+          "auto_ms": 7.3,
+          "auto_path": "contour",
+          "hough_ok_of_20": 8
+        },
+        {
+          "command": "eval",
+          "n": 5,
+          "iou_ok": 0.9,
+          "canny": "auto",
+          "summary": {
+            "contour": {
+              "sheets": 4,
+              "found_iou_ok": 2,
+              "mean_iou": 0.493,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 13.3
+            },
+            "hough": {
+              "sheets": 4,
+              "found_iou_ok": 0,
+              "mean_iou": 0.0,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 39.3
+            },
+            "auto": {
+              "sheets": 4,
+              "found_iou_ok": 2,
+              "mean_iou": 0.493,
+              "no_sheet": 1,
+              "rejected": 1,
+              "mean_ms": 21.3
+            }
+          },
+          "csv": "out/course/eval_no_close.csv"
+        }
+      ]
+    },
+    {
+      "id": "cmd024",
+      "section": "scan",
+      "file": "corner.jpg",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "scan",
+        "sample_data/corner.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/course/scans/corner_scan.png"
+      ],
+      "command": "python docscan.py scan sample_data/corner.jpg --method auto --canny 50,150 -o out/course/scans/corner_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[330.5, 120.3], [904.3, 169.7], [985.1, 848.3], [216.2, 768.5]], \"size_out\": [773, 1093], \"binarize\": \"flat\", \"out\": \"out/course/scans/corner_scan.png\", \"noise_sigma\": 2.22, \"filter_sigma\": 1.0, \"median\": 117.0, \"canny\": [50, 150], \"edge_pct\": 0.43, \"path\": \"hough\", \"ms\": 80.3}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              330.5,
+              120.3
+            ],
+            [
+              904.3,
+              169.7
+            ],
+            [
+              985.1,
+              848.3
+            ],
+            [
+              216.2,
+              768.5
+            ]
+          ],
+          "size_out": [
+            773,
+            1093
+          ],
+          "binarize": "flat",
+          "out": "out/course/scans/corner_scan.png",
+          "noise_sigma": 2.22,
+          "filter_sigma": 1.0,
+          "median": 117.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.43,
+          "path": "hough",
+          "ms": 80.3
+        }
+      ]
+    },
+    {
+      "id": "cmd025",
+      "section": "binarize",
+      "file": "corner.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "binarize",
+        "out/course/scans/corner_scan.png",
+        "--method",
+        "all",
+        "--gt",
+        "sample_data/page-gt.png",
+        "-o",
+        "out/course/scans/corner_bw.png"
+      ],
+      "command": "python docscan.py binarize out/course/scans/corner_scan.png --method all --gt sample_data/page-gt.png -o out/course/scans/corner_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 30.1, \"match_pct\": 73.0}, \"adaptive\": {\"ink_pct\": 9.64, \"match_pct\": 93.2}, \"flat\": {\"ink_pct\": 8.63, \"match_pct\": 94.0}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 30.1,
+            "match_pct": 73.0
+          },
+          "adaptive": {
+            "ink_pct": 9.64,
+            "match_pct": 93.2
+          },
+          "flat": {
+            "ink_pct": 8.63,
+            "match_pct": 94.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd026",
+      "section": "scan",
+      "file": "desk.jpg",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "scan",
+        "sample_data/desk.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/course/scans/desk_scan.png"
+      ],
+      "command": "python docscan.py scan sample_data/desk.jpg --method auto --canny 50,150 -o out/course/scans/desk_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[430.5, 150.5], [880.5, 186.5], [1006.5, 790.5], [270.5, 758.5]], \"size_out\": [737, 1042], \"binarize\": \"flat\", \"out\": \"out/course/scans/desk_scan.png\", \"noise_sigma\": 0.99, \"filter_sigma\": 1.0, \"median\": 106.0, \"canny\": [50, 150], \"edge_pct\": 0.39, \"path\": \"contour\", \"ms\": 22.8}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              430.5,
+              150.5
+            ],
+            [
+              880.5,
+              186.5
+            ],
+            [
+              1006.5,
+              790.5
+            ],
+            [
+              270.5,
+              758.5
+            ]
+          ],
+          "size_out": [
+            737,
+            1042
+          ],
+          "binarize": "flat",
+          "out": "out/course/scans/desk_scan.png",
+          "noise_sigma": 0.99,
+          "filter_sigma": 1.0,
+          "median": 106.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.39,
+          "path": "contour",
+          "ms": 22.8
+        }
+      ]
+    },
+    {
+      "id": "cmd027",
+      "section": "binarize",
+      "file": "desk.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "binarize",
+        "out/course/scans/desk_scan.png",
+        "--method",
+        "all",
+        "--gt",
+        "sample_data/page-gt.png",
+        "-o",
+        "out/course/scans/desk_bw.png"
+      ],
+      "command": "python docscan.py binarize out/course/scans/desk_scan.png --method all --gt sample_data/page-gt.png -o out/course/scans/desk_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 14.27, \"match_pct\": 87.7}, \"adaptive\": {\"ink_pct\": 10.57, \"match_pct\": 91.3}, \"flat\": {\"ink_pct\": 9.03, \"match_pct\": 92.4}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 14.27,
+            "match_pct": 87.7
+          },
+          "adaptive": {
+            "ink_pct": 10.57,
+            "match_pct": 91.3
+          },
+          "flat": {
+            "ink_pct": 9.03,
+            "match_pct": 92.4
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd028",
+      "section": "scan",
+      "file": "plain.jpg",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "scan",
+        "sample_data/plain.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/course/scans/plain_scan.png"
+      ],
+      "command": "python docscan.py scan sample_data/plain.jpg --method auto --canny 50,150 -o out/course/scans/plain_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[452.5, 130.5], [910.5, 172.5], [956.5, 818.5], [330.5, 796.5]], \"size_out\": [626, 885], \"binarize\": \"flat\", \"out\": \"out/course/scans/plain_scan.png\", \"noise_sigma\": 0.99, \"filter_sigma\": 1.0, \"median\": 191.0, \"canny\": [50, 150], \"edge_pct\": 0.39, \"path\": \"contour\", \"ms\": 27.1}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              452.5,
+              130.5
+            ],
+            [
+              910.5,
+              172.5
+            ],
+            [
+              956.5,
+              818.5
+            ],
+            [
+              330.5,
+              796.5
+            ]
+          ],
+          "size_out": [
+            626,
+            885
+          ],
+          "binarize": "flat",
+          "out": "out/course/scans/plain_scan.png",
+          "noise_sigma": 0.99,
+          "filter_sigma": 1.0,
+          "median": 191.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 0.39,
+          "path": "contour",
+          "ms": 27.1
+        }
+      ]
+    },
+    {
+      "id": "cmd029",
+      "section": "binarize",
+      "file": "plain.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "binarize",
+        "out/course/scans/plain_scan.png",
+        "--method",
+        "all",
+        "--gt",
+        "sample_data/page-gt.png",
+        "-o",
+        "out/course/scans/plain_bw.png"
+      ],
+      "command": "python docscan.py binarize out/course/scans/plain_scan.png --method all --gt sample_data/page-gt.png -o out/course/scans/plain_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 14.11, \"match_pct\": 87.6}, \"adaptive\": {\"ink_pct\": 10.86, \"match_pct\": 90.9}, \"flat\": {\"ink_pct\": 8.89, \"match_pct\": 92.3}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 14.11,
+            "match_pct": 87.6
+          },
+          "adaptive": {
+            "ink_pct": 10.86,
+            "match_pct": 90.9
+          },
+          "flat": {
+            "ink_pct": 8.89,
+            "match_pct": 92.3
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd030",
+      "section": "scan",
+      "file": "tiles.jpg",
+      "setting": "fixed",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "scan",
+        "sample_data/tiles.jpg",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "-o",
+        "out/course/scans/tiles_scan.png"
+      ],
+      "command": "python docscan.py scan sample_data/tiles.jpg --method auto --canny 50,150 -o out/course/scans/tiles_scan.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"scan\", \"found\": true, \"corners\": [[558.5, 114.5], [1006.5, 300.5], [760.5, 874.5], [274.5, 640.5]], \"size_out\": [539, 762], \"binarize\": \"flat\", \"out\": \"out/course/scans/tiles_scan.png\", \"noise_sigma\": 1.73, \"filter_sigma\": 1.0, \"median\": 139.0, \"canny\": [50, 150], \"edge_pct\": 2.04, \"path\": \"contour\", \"ms\": 31.8}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "scan",
+          "found": true,
+          "corners": [
+            [
+              558.5,
+              114.5
+            ],
+            [
+              1006.5,
+              300.5
+            ],
+            [
+              760.5,
+              874.5
+            ],
+            [
+              274.5,
+              640.5
+            ]
+          ],
+          "size_out": [
+            539,
+            762
+          ],
+          "binarize": "flat",
+          "out": "out/course/scans/tiles_scan.png",
+          "noise_sigma": 1.73,
+          "filter_sigma": 1.0,
+          "median": 139.0,
+          "canny": [
+            50,
+            150
+          ],
+          "edge_pct": 2.04,
+          "path": "contour",
+          "ms": 31.8
+        }
+      ]
+    },
+    {
+      "id": "cmd031",
+      "section": "binarize",
+      "file": "tiles.jpg",
+      "setting": "same_rectification",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "binarize",
+        "out/course/scans/tiles_scan.png",
+        "--method",
+        "all",
+        "--gt",
+        "sample_data/page-gt.png",
+        "-o",
+        "out/course/scans/tiles_bw.png"
+      ],
+      "command": "python docscan.py binarize out/course/scans/tiles_scan.png --method all --gt sample_data/page-gt.png -o out/course/scans/tiles_bw.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 14.23, \"match_pct\": 86.2}, \"adaptive\": {\"ink_pct\": 11.22, \"match_pct\": 89.4}, \"flat\": {\"ink_pct\": 8.94, \"match_pct\": 91.1}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 14.23,
+            "match_pct": 86.2
+          },
+          "adaptive": {
+            "ink_pct": 11.22,
+            "match_pct": 89.4
+          },
+          "flat": {
+            "ink_pct": 8.94,
+            "match_pct": 91.1
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd032",
+      "section": "lamp",
+      "file": "sample_data/L3/text-lamp.png",
+      "setting": "all",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "binarize",
+        "sample_data/L3/text-lamp.png",
+        "--gt",
+        "sample_data/L3/text-gt.png",
+        "-o",
+        "out/course/lamp.png"
+      ],
+      "command": "python docscan.py binarize sample_data/L3/text-lamp.png --gt sample_data/L3/text-gt.png -o out/course/lamp.png",
+      "returncode": 0,
+      "stdout": "{\"command\": \"binarize\", \"block\": 31, \"C\": 15, \"otsu\": {\"ink_pct\": 51.1, \"match_pct\": 56.8}, \"adaptive\": {\"ink_pct\": 9.04, \"match_pct\": 98.8}, \"flat\": {\"ink_pct\": 7.92, \"match_pct\": 99.9}}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "binarize",
+          "block": 31,
+          "C": 15,
+          "otsu": {
+            "ink_pct": 51.1,
+            "match_pct": 56.8
+          },
+          "adaptive": {
+            "ink_pct": 9.04,
+            "match_pct": 98.8
+          },
+          "flat": {
+            "ink_pct": 7.92,
+            "match_pct": 99.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmd033",
+      "section": "video",
+      "file": "sample_data/clip.mp4",
+      "setting": "contour",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "video",
+        "--source",
+        "sample_data/clip.mp4",
+        "--method",
+        "contour",
+        "--canny",
+        "50,150",
+        "--no-window",
+        "--seconds",
+        "0"
+      ],
+      "command": "python docscan.py video --source sample_data/clip.mp4 --method contour --canny 50,150 --no-window --seconds 0",
+      "returncode": 0,
+      "stdout": "{\"command\": \"video\", \"source\": \"sample_data/clip.mp4\", \"method\": \"contour\", \"frames\": 60, \"seconds\": 0.44, \"fps\": 137.5, \"found_pct\": 75.0, \"detect_ms_median\": 6.0, \"frame_size\": [640, 480], \"save_fps\": null, \"finalize_seconds\": 0.0}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "video",
+          "source": "sample_data/clip.mp4",
+          "method": "contour",
+          "frames": 60,
+          "seconds": 0.44,
+          "fps": 137.5,
+          "found_pct": 75.0,
+          "detect_ms_median": 6.0,
+          "frame_size": [
+            640,
+            480
+          ],
+          "save_fps": null,
+          "finalize_seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": "cmd034",
+      "section": "video",
+      "file": "sample_data/clip.mp4",
+      "setting": "hough",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "video",
+        "--source",
+        "sample_data/clip.mp4",
+        "--method",
+        "hough",
+        "--canny",
+        "50,150",
+        "--no-window",
+        "--seconds",
+        "0"
+      ],
+      "command": "python docscan.py video --source sample_data/clip.mp4 --method hough --canny 50,150 --no-window --seconds 0",
+      "returncode": 0,
+      "stdout": "{\"command\": \"video\", \"source\": \"sample_data/clip.mp4\", \"method\": \"hough\", \"frames\": 60, \"seconds\": 1.63, \"fps\": 36.7, \"found_pct\": 75.0, \"detect_ms_median\": 31.1, \"frame_size\": [640, 480], \"save_fps\": null, \"finalize_seconds\": 0.0}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "video",
+          "source": "sample_data/clip.mp4",
+          "method": "hough",
+          "frames": 60,
+          "seconds": 1.63,
+          "fps": 36.7,
+          "found_pct": 75.0,
+          "detect_ms_median": 31.1,
+          "frame_size": [
+            640,
+            480
+          ],
+          "save_fps": null,
+          "finalize_seconds": 0.0
+        }
+      ]
+    },
+    {
+      "id": "cmd035",
+      "section": "video",
+      "file": "sample_data/clip.mp4",
+      "setting": "auto",
+      "argv": [
+        "/workspace/scratch/abe3898538b9/cv_hw2_env/bin/python",
+        "/workspace/scratch/abe3898538b9/cv_hw2_docscan/docscan.py",
+        "video",
+        "--source",
+        "sample_data/clip.mp4",
+        "--method",
+        "auto",
+        "--canny",
+        "50,150",
+        "--no-window",
+        "--seconds",
+        "0"
+      ],
+      "command": "python docscan.py video --source sample_data/clip.mp4 --method auto --canny 50,150 --no-window --seconds 0",
+      "returncode": 0,
+      "stdout": "{\"command\": \"video\", \"source\": \"sample_data/clip.mp4\", \"method\": \"auto\", \"frames\": 60, \"seconds\": 0.48, \"fps\": 124.0, \"found_pct\": 75.0, \"detect_ms_median\": 6.8, \"frame_size\": [640, 480], \"save_fps\": null, \"finalize_seconds\": 0.0}\n",
+      "stderr": "",
+      "json": [
+        {
+          "command": "video",
+          "source": "sample_data/clip.mp4",
+          "method": "auto",
+          "frames": 60,
+          "seconds": 0.48,
+          "fps": 124.0,
+          "found_pct": 75.0,
+          "detect_ms_median": 6.8,
+          "frame_size": [
+            640,
+            480
+          ],
+          "save_fps": null,
+          "finalize_seconds": 0.0
+        }
+      ]
+    }
+  ],
+  "finished_utc": "2026-11-01T13:40:16.314923+00:00"
+}
